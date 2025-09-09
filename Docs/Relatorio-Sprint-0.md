@@ -24,7 +24,8 @@
 
 | Entrega | Status (Concluído/Parcial/Pendente) | Link/Referência        | Observações |
 | --------| ----------------------------------- | ---------------------- | --------------------------------- |
-| Repositório de documentação | Concluído                           | [Link]()  | Organização da Equipe |
+| Organização e Fork do Projeto | Concluído | [Link](https://github.com/GCES-GovHub-2025-2) | |
+| Repositório de documentação | Concluído                           | [Link](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/tree/main)  |  |
 
 
 ---
@@ -33,8 +34,8 @@
 
 | Integrante | Contribuições                             | Links (PRs, Issues, Docs) | Observações |
 | ---------- | ----------------------------------------- | ------------------------- | ----------- |
-| Victor Hugo     | Criação da Organização; Criação do Fork do Projeto;        | [Link]()               |             |
-| Letícia Aires | Criação do Repositório de documentação; |  [Link]()  | - |
+| Victor Hugo     | Criação da Organização; Criação do Fork do Projeto;        | [Link](https://github.com/GCES-GovHub-2025-2)               |             |
+| Letícia Aires | Criação do Repositório de documentação; |  [Link](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios)  | - |
 | Nome 3     |           | \[link repo]              |             |
 
 ---
