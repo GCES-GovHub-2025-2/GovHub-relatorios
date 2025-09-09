@@ -13,7 +13,7 @@
 
 ## 1. Objetivos da Sprint
 
-* [ ] Organização da equipe (Fork, Organização Github, Repositório GitHub).
+* [X] Organização da equipe (Fork, Organização Github, Repositório GitHub).
 * [ ] Configuração do ambiente local.
 * [ ] Mapeamento das políticas de GCES do projeto OSS (Guia de Contribuição, Padrões de Qualidade e Comunicação).
 * [ ] Documentação dos aprendizados.
@@ -24,7 +24,7 @@
 
 | Entrega | Status (Concluído/Parcial/Pendente) | Link/Referência        | Observações |
 | --------| ----------------------------------- | ---------------------- | --------------------------------- |
-| Organização e Fork do Projeto | Concluído | [Link](https://github.com/GCES-GovHub-2025-2) | |
+| Organização e Fork do Projeto | Concluído | [Link](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub) | |
 | Repositório de documentação | Concluído                           | [Link](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/tree/main)  |  |
 
 
@@ -32,11 +32,21 @@
 
 ## 3. Contribuições Individuais
 
-| Integrante | Contribuições                             | Links (PRs, Issues, Docs) | Observações |
-| ---------- | ----------------------------------------- | ------------------------- | ----------- |
-| Victor Hugo     | Criação da Organização; Criação do Fork do Projeto;        | [Link](https://github.com/GCES-GovHub-2025-2)               |             |
-| Letícia Aires | Criação do Repositório de documentação; |  [Link](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios)  | - |
-| Nome 3     |           | \[link repo]              |             |
+| Integrante                          | Contribuições | Links (PRs, Issues, Docs) | Observações |
+| ----------------------------------- | ------------- | ------------------------- | ----------- |
+| Daniel Ferreira Santos Rabelo       |               |                           |             |
+| Davi de Aguiar Vieira               |               |                           |             |
+| Gabriel Reis Scheidt Paulino        |               |                           |             |
+| Gabriela Tiago de Araujo            |               |                           |             |
+| Laís Cecília Soares Paes            |               |                           |             |
+| Leonardo Fachinello Bonetti         |               |                           |             |
+| Letícia Assunção Aires Moreira      |               |                           |             |
+| Lude Yuri de Castro Ribeiro         |               |                           |             |
+| Marcus Vinicius Paiva Martins | Criação de Docs com dados dos integrantes, informações do projeto e as sugestões de issues que os mantenedores do projeto e professora sugeriram para que o grupo fizesse, anotação e divulgação de informações pertinentes no grupo | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0) |             |
+| Mateus de Castro Santos             |               |                           |             |
+| Mateus Henrique Queiroz Magalhaes Sousa |           |                           |             |
+| Maykon Junio dos Santos Soares      |               |                           |             |
+| Victor Hugo Lima Schmidt            |               |                           |             |
 
 ---
 
