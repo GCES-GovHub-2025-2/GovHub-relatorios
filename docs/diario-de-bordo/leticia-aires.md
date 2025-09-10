@@ -1,12 +1,14 @@
-# Diário de Bordo – \[Marcus Martins]
+# Diário de Bordo – \[Letícia Aires]
 
 **Disciplina:** \[GCES]
+
 **Equipe:** \[GovHub]
+
 **Comunidade/Projeto de Software Livre:** \[GovHub]
 
 ---
 
-## Sprint 1 – \[Data início – Data fim]
+## Sprint 0 – \[01/09/2025 – 10/09/2025]
 
 ### Resumo da Sprint
 
@@ -38,44 +40,3 @@ Breve descrição das atividades e reflexões.
 
 * [ ] Contribuir com pelo menos 1 PR.
 * [ ] Participar da revisão de código de um colega.
-
----
-
-## Sprint 2 – \[Data início – Data fim]
-
-### Resumo da Sprint
-
-Breve descrição.
-
-### Atividades Realizadas
-
-| Data  | Atividade                   | Tipo    | Link/Referência | Status    |
-| ----- | --------------------------- | ------- | --------------- | --------- |
-| 03/09 | Implementação da função Y   | Código  | \[link PR]      | Concluído |
-| 05/09 | Revisão de PR de colega     | Revisão | \[link PR]      | Concluído |
-| 08/09 | Atualização de documentação | Doc     | \[link wiki]    | Parcial   |
-
-### Maiores Avanços
-
-* \[Exemplo] Primeiro PR aceito pela comunidade.
-
-### Maiores Dificuldades
-
-* Dificuldade com testes automatizados.
-
-### Aprendizados
-
-* Melhoria no uso de Git (branches, rebase).
-* Importância de escrever commits claros.
-
-### Plano Pessoal para a Próxima Sprint
-
-* [ ] Melhorar conhecimento em testes.
-* [ ] Aprofundar em Docker para rodar ambiente completo.
-
----
-
-## Sprint 3 – \[Data início – Data fim]
-
-*(Repete-se a mesma estrutura, até o final da disciplina.)*
-    
