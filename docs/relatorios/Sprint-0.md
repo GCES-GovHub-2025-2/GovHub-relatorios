@@ -16,7 +16,7 @@
 * [X] Organização da equipe (Fork, Organização Github, Repositório GitHub).
 * [X] Configuração do ambiente local.
 * [X] Mapeamento das políticas de GCES do projeto OSS (Guia de Contribuição, Padrões de Qualidade e Comunicação).
-* [ ] Documentação dos aprendizados.
+* [X] Documentação dos aprendizados.
 
 ---
 
@@ -35,7 +35,7 @@
 | Integrante                          | Contribuições | Links (PRs, Issues, Docs) | Observações |
 | ----------------------------------- | ------------- | ------------------------- | ----------- |
 | Daniel Ferreira Santos Rabelo       |               |                           |             |
-| Davi de Aguiar Vieira               |               |                           |             |
+| Davi de Aguiar Vieira | Revisão e aprimoramento da documentação de instalação, configuração e arquitetura do ambiente; correção de links no README da organização; foco em facilitar o onboarding dos alunos. | [Instalação](https://gov-hub.io/documentacao/instalacao/), [Arquitetura](https://gov-hub.io/documentacao/arquitetura/), [README](https://github.com/GovHub-br?view_as=public) | Documentação clara para onboarding, correção de links quebrados, organização das informações. |
 | Gabriel Reis Scheidt Paulino        |               |                           |             |
 | Gabriela Tiago de Araujo            |               |                           |             |
 | Laís Cecília Soares Paes            |               |                           |             |
@@ -43,7 +43,7 @@
 | Letícia Assunção Aires Moreira      | Criação e estruturação do repositório de documentação , preenchimento parcial do relatório da sprint      |                           |             |
 | Lude Yuri de Castro Ribeiro         |               |                           |             |
 | Marcus Vinicius Paiva Martins | Criação de Docs com dados dos integrantes, informações do projeto e as sugestões de issues que os mantenedores do projeto e professora sugeriram para que o grupo fizesse, anotação e divulgação de informações pertinentes no grupo | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0) |             |
-| Mateus de Castro Santos             |               |                           |             |
+| Mateus de Castro Santos | Evolução e aprimoramento da documentação de instalação, configuração e arquitetura; revisão e correção de links no README da organização; foco em facilitar o onboarding dos alunos. | [Instalação](https://gov-hub.io/documentacao/instalacao/), [Arquitetura](https://gov-hub.io/documentacao/arquitetura/), [README](https://github.com/GovHub-br?view_as=public) | Documentação clara para onboarding, correção de links quebrados, organização das informações. |
 | Mateus Henrique Queiroz Magalhaes Sousa | Contribuição na parte relacionado a pipelines no Docs sobre as informações do projeto          |              [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0)             |             |
 | Maykon Junio dos Santos Soares      |               |                           |             |
 | Victor Hugo Lima Schmidt            | Criação da organização e fork do repositório               |                           |             |
