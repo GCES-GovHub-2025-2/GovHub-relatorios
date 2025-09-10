@@ -14,8 +14,8 @@
 ## 1. Objetivos da Sprint
 
 * [X] Organização da equipe (Fork, Organização Github, Repositório GitHub).
-* [ ] Configuração do ambiente local.
-* [ ] Mapeamento das políticas de GCES do projeto OSS (Guia de Contribuição, Padrões de Qualidade e Comunicação).
+* [X] Configuração do ambiente local.
+* [X] Mapeamento das políticas de GCES do projeto OSS (Guia de Contribuição, Padrões de Qualidade e Comunicação).
 * [ ] Documentação dos aprendizados.
 
 ---
@@ -40,13 +40,13 @@
 | Gabriela Tiago de Araujo            |               |                           |             |
 | Laís Cecília Soares Paes            |               |                           |             |
 | Leonardo Fachinello Bonetti         |               |                           |             |
-| Letícia Assunção Aires Moreira      |               |                           |             |
+| Letícia Assunção Aires Moreira      | Criação e estruturação do repositório de documentação , preenchimento parcial do relatório da sprint      |                           |             |
 | Lude Yuri de Castro Ribeiro         |               |                           |             |
 | Marcus Vinicius Paiva Martins | Criação de Docs com dados dos integrantes, informações do projeto e as sugestões de issues que os mantenedores do projeto e professora sugeriram para que o grupo fizesse, anotação e divulgação de informações pertinentes no grupo | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0) |             |
 | Mateus de Castro Santos             |               |                           |             |
 | Mateus Henrique Queiroz Magalhaes Sousa |           |                           |             |
 | Maykon Junio dos Santos Soares      |               |                           |             |
-| Victor Hugo Lima Schmidt            |               |                           |             |
+| Victor Hugo Lima Schmidt            | Criação da organização e fork do repositório               |                           |             |
 
 ---
 
@@ -54,6 +54,8 @@
 
 ✨ **Destaques da Sprint:**
 
+-   Rodamos o projeto localmente com as dependências configuradas.
+-   Criamos uma documentação de como subir o ambiente e como fazer um teste do pipeline completo.
 
 ---
 
@@ -61,10 +63,13 @@
 
 **Principais desafios enfrentados:**
 
+- Rodar o projeto localmente pela primeira vez, devido à dependências neccessárias e versionamento.
+  
 ---
 
 ## 6. Lições Aprendidas
 
+- Verificar dependências e versionamento, antes de iniciar ambiente local
 
 ---
 
