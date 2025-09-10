@@ -10,6 +10,7 @@
   - [Marcus Martins](diario-de-bordo/marcus-martins.md)
   - [Víctor Schmidt](diario-de-bordo/victor-schmidt.md)
   - [Maykon Soares](diario-de-bordo/maykon-soares.md)
+  - [Mateus Henrique](diario-de-bordo/mateus_henrique.md)
 
 - **Templates**
   - [Template Diário de Bordo](templates/template-diario-bordo.md)
