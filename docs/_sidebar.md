@@ -4,10 +4,10 @@
   - [Sprint 0](relatorios/Sprint-0.md)
 
 - **Diários de Bordo**
-  - **Sprint 0**
-    - [Letícia Aires](diario-de-bordo/leticia-aires.md)
-    - [Marcus Martins](diario-de-bordo/marcus-martins.md)
-
+  - [Letícia Aires](diario-de-bordo/leticia-aires.md)
+  - [Marcus Martins](diario-de-bordo/marcus-martins.md)
+  - [Víctor Schmidt](diario-de-bordo/victor-schmidt.md)
+ 
 - **Templates**
   - [Template Diário de Bordo](templates/template-diario-bordo.md)
   - [Template Relatório](templates/template-relatorio.md)

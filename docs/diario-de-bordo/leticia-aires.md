@@ -4,7 +4,7 @@
 
 **Equipe:** \[GovHub]
 
-**Comunidade/Projeto de Software Livre:** \[GovHub]
+**Comunidade/Projeto de Software Livre:** \[GovHub-br]
 
 ---
 
