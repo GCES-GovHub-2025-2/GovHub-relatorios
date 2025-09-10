@@ -1,4 +1,4 @@
-# Diário de Bordo – \[Nome do(a) Aluno(a)]
+# Diário de Bordo – \[Victor Schmidt]
 
 **Disciplina:** \[GCES]
 
