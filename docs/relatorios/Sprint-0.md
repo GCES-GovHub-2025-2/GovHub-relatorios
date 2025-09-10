@@ -44,7 +44,7 @@
 | Lude Yuri de Castro Ribeiro         |               |                           |             |
 | Marcus Vinicius Paiva Martins | Criação de Docs com dados dos integrantes, informações do projeto e as sugestões de issues que os mantenedores do projeto e professora sugeriram para que o grupo fizesse, anotação e divulgação de informações pertinentes no grupo | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0) |             |
 | Mateus de Castro Santos             |               |                           |             |
-| Mateus Henrique Queiroz Magalhaes Sousa |           |                           |             |
+| Mateus Henrique Queiroz Magalhaes Sousa | Contribuição na parte relacionado a pipelines no Docs sobre as informações do projeto          |              [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0)             |             |
 | Maykon Junio dos Santos Soares      |               |                           |             |
 | Victor Hugo Lima Schmidt            | Criação da organização e fork do repositório               |                           |             |
 
