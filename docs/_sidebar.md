@@ -14,7 +14,7 @@
   - [Gabriel Scheidt](diario-de-bordo/gabriel-scheidt.md)
   - [Mateus Henrique](diario-de-bordo/mateus_henrique.md)
   - [Felipe Campelo](diario-de-bordo/felipe-campelo.md)
-  
+  - [Gabriela Tiago](diario-de-bordo/gabriela-tiago.md)
 
 - **Templates**
   - [Template Diário de Bordo](templates/template-diario-bordo.md)
