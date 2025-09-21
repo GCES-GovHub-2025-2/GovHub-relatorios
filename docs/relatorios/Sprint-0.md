@@ -12,10 +12,10 @@
 
 ## 1. Objetivos da Sprint
 
-* [X] Organização da equipe (Fork, Organização Github, Repositório GitHub).
-* [X] Configuração do ambiente local.
-* [X] Mapeamento das políticas de GCES do projeto OSS (Guia de Contribuição, Padrões de Qualidade e Comunicação).
-* [X] Documentação dos aprendizados.
+-   [x] Organização da equipe (Fork, Organização Github, Repositório GitHub).
+-   [x] Configuração do ambiente local.
+-   [x] Mapeamento das políticas de GCES do projeto OSS (Guia de Contribuição, Padrões de Qualidade e Comunicação).
+-   [x] Documentação dos aprendizados.
 
 ---
 
@@ -30,31 +30,28 @@
 
 ## 3. Contribuições Individuais
 
-
-| Integrante                          | Contribuições | Links (PRs, Issues, Docs) | Observações |
-| ----------------------------------- | ------------- | ------------------------- | ----------- |
-| Daniel Ferreira Santos Rabelo       |               |                           |             |
-| Davi de Aguiar Vieira | Revisão e aprimoramento da documentação de instalação, configuração e arquitetura do ambiente; correção de links no README da organização; foco em facilitar o onboarding dos alunos. | [Instalação](https://gov-hub.io/documentacao/instalacao/), [Arquitetura](https://gov-hub.io/documentacao/arquitetura/), [README](https://github.com/GovHub-br?view_as=public) | Documentação clara para onboarding, correção de links quebrados, organização das informações. |
-| Gabriel Reis Scheidt Paulino        |               |                           |             |
-| Gabriela Tiago de Araujo            |               |                           |             |
-| Laís Cecília Soares Paes            |               |                           |             |
-| Leonardo Fachinello Bonetti         |               |                           |             |
-| Letícia Assunção Aires Moreira      | Criação e estruturação do repositório de documentação , preenchimento parcial do relatório da sprint      |                           |             |
-| Lude Yuri de Castro Ribeiro         |               |                           |             |
-| Marcus Vinicius Paiva Martins | Criação de Docs com dados dos integrantes, informações do projeto e as sugestões de issues que os mantenedores do projeto e professora sugeriram para que o grupo fizesse, anotação e divulgação de informações pertinentes no grupo | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0) |             |
-| Mateus de Castro Santos | Evolução e aprimoramento da documentação de instalação, configuração e arquitetura; revisão e correção de links no README da organização; foco em facilitar o onboarding dos alunos. | [Instalação](https://gov-hub.io/documentacao/instalacao/), [Arquitetura](https://gov-hub.io/documentacao/arquitetura/), [README](https://github.com/GovHub-br?view_as=public) | Documentação clara para onboarding, correção de links quebrados, organização das informações. |
-| Mateus Henrique Queiroz Magalhaes Sousa | Contribuição na parte relacionado a pipelines no Docs sobre as informações do projeto          |              [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0)             |             |
-| Maykon Junio dos Santos Soares      | Preenchimento de relatório da sprint com lições aprendidas.               |                           |             |
-| Victor Hugo Lima Schmidt            | Criação da organização e fork do repositório               |                           |             |
-
----
+| Integrante                              | Contribuições                                                                                                                                                                                                                        | Links (PRs, Issues, Docs)                                                                                                                                                     | Observações                                                                                   |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Daniel Ferreira Santos Rabelo           |                                                                                                                                                                                                                                      |                                                                                                                                                                               |                                                                                               |
+| Davi de Aguiar Vieira                   | Revisão e aprimoramento da documentação de instalação, configuração e arquitetura do ambiente; correção de links no README da organização; foco em facilitar o onboarding dos alunos.                                                | [Instalação](https://gov-hub.io/documentacao/instalacao/), [Arquitetura](https://gov-hub.io/documentacao/arquitetura/), [README](https://github.com/GovHub-br?view_as=public) | Documentação clara para onboarding, correção de links quebrados, organização das informações. |
+| Gabriel Reis Scheidt Paulino            |                                                                                                                                                                                                                                      |                                                                                                                                                                               |                                                                                               |
+| Gabriela Tiago de Araujo                | Preenchimento parcial do relatório da sprint                                                                                                                                                                                         |                                                                                                                                                                               |                                                                                               |
+| Laís Cecília Soares Paes                |                                                                                                                                                                                                                                      |                                                                                                                                                                               |                                                                                               |
+| Leonardo Fachinello Bonetti             |                                                                                                                                                                                                                                      |                                                                                                                                                                               |                                                                                               |
+| Letícia Assunção Aires Moreira          | Criação e estruturação do repositório de documentação , preenchimento parcial do relatório da sprint                                                                                                                                 |                                                                                                                                                                               |                                                                                               |
+| Lude Yuri de Castro Ribeiro             |                                                                                                                                                                                                                                      |                                                                                                                                                                               |                                                                                               |
+| Marcus Vinicius Paiva Martins           | Criação de Docs com dados dos integrantes, informações do projeto e as sugestões de issues que os mantenedores do projeto e professora sugeriram para que o grupo fizesse, anotação e divulgação de informações pertinentes no grupo | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0)                                                                                       |                                                                                               |
+| Mateus de Castro Santos                 | Evolução e aprimoramento da documentação de instalação, configuração e arquitetura; revisão e correção de links no README da organização; foco em facilitar o onboarding dos alunos.                                                 | [Instalação](https://gov-hub.io/documentacao/instalacao/), [Arquitetura](https://gov-hub.io/documentacao/arquitetura/), [README](https://github.com/GovHub-br?view_as=public) | Documentação clara para onboarding, correção de links quebrados, organização das informações. |
+| Mateus Henrique Queiroz Magalhaes Sousa | Contribuição na parte relacionado a pipelines no Docs sobre as informações do projeto                                                                                                                                                | [Docs](https://docs.google.com/document/d/1gwo-WKB09nKjJ5ghYFihoAGSMAReoC442PUmTbsKAY0)                                                                                       |                                                                                               |
+| Maykon Junio dos Santos Soares          | Preenchimento de relatório da sprint com lições aprendidas.                                                                                                                                                                          |                                                                                                                                                                               |                                                                                               |
+| Victor Hugo Lima Schmidt                | Criação da organização e fork do repositório                                                                                                                                                                                         |                                                                                                                                                                               |                                                                                               |
 
 ## 4. Maiores Avanços
 
 ✨ **Destaques da Sprint:**
 
-- Rodamos o projeto localmente com as dependências configuradas.
-- Criamos uma documentação de como subir o ambiente e como fazer um teste do pipeline completo.
+-   Rodamos o projeto localmente com as dependências configuradas.
+-   Criamos uma documentação de como subir o ambiente e como fazer um teste do pipeline completo.
 
 ---
 
@@ -62,7 +59,7 @@
 
 **Principais desafios enfrentados:**
 
-- Rodar o projeto localmente pela primeira vez, devido à dependências neccessárias e versionamento.
+-   Rodar o projeto localmente pela primeira vez, devido à dependências neccessárias e versionamento.
 
 ---
 
@@ -74,8 +71,8 @@ Durante esta sprint inicial, aprendemos a importância de verificar dependência
 
 ## 7. Planejamento para a Próxima Sprint
 
-- [ ] Buscar issues por meio de discussões da Comunidade e uso empírico do software.
-- [ ] Abrir o primeiro Pull Request (PR) de código.
-- [ ] Acompanhar discussões da comunidade.
-- [ ] Documentar procedimentos e aprendizados.
-- [ ] Padronizar alterações a serem feitas.
+-   [ ] Buscar issues por meio de discussões da Comunidade e uso empírico do software.
+-   [ ] Abrir o primeiro Pull Request (PR) de código.
+-   [ ] Acompanhar discussões da comunidade.
+-   [ ] Documentar procedimentos e aprendizados.
+-   [ ] Padronizar alterações a serem feitas.
