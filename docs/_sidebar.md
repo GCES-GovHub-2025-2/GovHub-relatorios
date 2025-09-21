@@ -19,3 +19,6 @@
 - **Templates**
   - [Template Diário de Bordo](templates/template-diario-bordo.md)
   - [Template Relatório](templates/template-relatorio.md)
+
+- **GCES**
+  - [Checklist de Configurações de GCES](GCES/checklist.md)
