@@ -46,3 +46,39 @@ Essa sprint foi focada em organizar a equipe, criar o fork e o repositório, al�
 * [ ] Estudar mais sobre as ferramentas Jupyter, Superset e Airflow para análise e visualização.
 
 ---
+
+## Sprint 1 – [11/09 - 24/09]
+
+### Resumo da Sprint
+
+Inicialmente, o objetivo era contribuir com issues relacionadas a pipelines. No entanto, como já havia pessoas trabalhando nessas tarefas, assumi a issue relacionada à criação de uma DAG no Airflow. Durante a sprint, estudei sobre DAGs, a arquitetura do Airflow e participei da separação das tarefas que cada membro da equipe deveria realizar. O foco foi no aprendizado prático sobre orquestração de tarefas e ingestão de dados.  
+
+### Atividades Realizadas
+
+| Data  | Atividade                                        | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status    |
+| ----- | ------------------------------------------------ | --------------------------------- | --------------- | --------- |
+| 12/09 | Estudo sobre DAGs e funcionamento do Airflow     | Estudo                            | [Link](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html) | Concluído |
+| 18/09 | Discussão e divisão das tarefas da equipe        | Discussão                         | -               | Concluído |
+| 23/09 | Criação inicial da DAG de ingestão de emendas parlamentares | Código | [Link](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/blob/feat/dag-ingestao-emendas/airflow_lappis/dags/data_ingest/emendas_parlamentares/emendas_parlamentares_dag.py) | Em andamento |
+
+### Maiores Avanços
+
+* Consegui criar uma DAG em conjunto com membros da equipe para ingestão de dados de emendas parlamentares, ainda que ela não esteja completamente finalizada.  
+* Aprofundei o entendimento sobre DAGs no Airflow e como elas estruturam workflows de dados.  
+* Ganhei mais experiência prática com o desenvolvimento em Python integrado ao Airflow.  
+
+### Maiores Dificuldades
+
+* Foi complicado compreender o funcionamento completo de uma DAG, especialmente o fluxo de dependências entre as tasks.  
+* Tive dificuldade em entender melhor como os **operators** do Airflow funcionam e como integrá-los de forma adequada com funções Python.  
+
+### Aprendizados
+
+* Entendi a importância da modularização para manter o código da DAG limpo e escalável.  
+* Tive contato prático com a ingestão de dados externos (API) e inserção em banco de dados com Postgres.  
+* Percebi a importância de padronizar as DAGs com a arquitetura do projeto para facilitar manutenção e colaboração.  
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Lapidar a DAG criada, deixando-a mais modular e integrada ao restante do projeto.  
+* [ ] Documentar o processo de criação da DAG, descrevendo as decisões tomadas e os aprendizados.  
