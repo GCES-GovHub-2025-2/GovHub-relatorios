@@ -50,3 +50,28 @@ Nessa Sprint 0, o foco foi no estudo da documentação do GovHub-br e configura�
 
 
 ---
+
+## Sprint 1 – 11/09/2025 – 24/09/2025
+
+### Resumo da Sprint
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo | Link/Referência | Status |
+| ----- | ------------------------------------------- | --------------------------------- | --------------- | --------- |
+| 18/09 | Reunião com a equipe para alinhamento sobre a estrutura, documentação e objetivos | [Discussão](https://unbbr.sharepoint.com/:v:/s/GCES-GovHub/EYrOutQ0LolElFxdvpaC9HIB4ievbv2DvaoHX2_KcENrcw?e=83DvhU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | – | Concluído |
+| 21/09 | Análise da documentação disponível e escolher issue criada para contribuir | Código e Documentação | – | Concluído |
+| 22/09 | Contribuição para a documentação - Contributing.MD| Documentação | – | Concluído |
+|
+
+### Maiores Avanços
+
+* Aprendi a contribuir para a documentação.
+* Entendi melhor a estrutura do repositório.
+
+### Maiores Dificuldades
+* Dificuldade ainda para rodar aplicação no MacOS. Tudo ocorre como esperado, mas, ao abrir a página, não é possível visualizar a aplicação, fica só a tela em branco.
+
+### Aprendizados
+* Entendi melhor a estrutura do repositório.
+* Como contrubuir para documentação.
