@@ -54,19 +54,20 @@ Nessa Sprint 0, o foco foi no estudo da documentação do GovHub-br e configura�
 ## Sprint 1 – 11/09/2025 – 24/09/2025
 
 ### Resumo da Sprint
+Na sprint 1, foquei na docuemntação e melhorar a parte do GCES do projeto. Foram poucas contribuições porque fiquei meio perdido no que devia ser feito, mas depois que fizemos o checklist e abrimos as issues, conseguimos dividir bem as tarefas para serem realizadas e continuar na próxima sprint. Então, foram feitas as diretrizes de contribuição e concluídas ainda nessa sprint. Ainda com dificuldades para rodar a aplicação localmente no MacOS.
+
+
 
 ### Atividades Realizadas
 
 | Data | Atividade | Tipo | Link/Referência | Status |
 | ----- | ------------------------------------------- | --------------------------------- | --------------- | --------- |
 | 18/09 | Reunião com a equipe para alinhamento sobre a estrutura, documentação e objetivos | [Discussão](https://unbbr.sharepoint.com/:v:/s/GCES-GovHub/EYrOutQ0LolElFxdvpaC9HIB4ievbv2DvaoHX2_KcENrcw?e=83DvhU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) | – | Concluído |
-| 21/09 | Análise da documentação disponível e escolher issue criada para contribuir | Código e Documentação | – | Concluído |
-| 22/09 | Contribuição para a documentação - Contributing.MD| Documentação | – | Concluído |
-|
+| 21/09 | Análise da documentação disponível e escolher issue criada para contribuir | Código e Documentação | [Issue](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/issues/7) | Concluído |
+| 22/09 | Contribuição para a documentação - Contributing.MD| Documentação | [Commit](https://github.com/GovHub-br/data-application-gov-hub/commit/75f4a8bb4754330f15fbdc4c78d436e83ff4ce90) | Concluído |
 
 ### Maiores Avanços
-
-* Aprendi a contribuir para a documentação.
+* Melhora na documentação do projeto.
 * Entendi melhor a estrutura do repositório.
 
 ### Maiores Dificuldades
