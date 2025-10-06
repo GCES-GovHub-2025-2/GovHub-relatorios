@@ -4,7 +4,7 @@ Este documento serve como um guia rápido para a criação de mensagens de commi
 
 ## Estrutura Principal
 
-Cada mensagem de commit consiste em um cabeçalho, um corpo opcional e um rodapé opcional. A estrutura é a seguinte :
+Cada mensagem de commit consiste em um cabeçalho, um corpo opcional e um rodapé opcional. A estrutura é a seguinte:
 
 ```md
 <tipo>[escopo opcional]: <descrição>
