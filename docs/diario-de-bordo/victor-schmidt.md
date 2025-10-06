@@ -47,8 +47,62 @@ Durante esta sprint inicial, focamos na compreensão geral do projeto GovHub-br,
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Contribuir com documentação ou correção de bugs identificados
-* [ ] Explorar em detalhes os modelos dbt existentes
-* [ ] Participar de discussions ou issues abertas no repositório
-* [ ] Compreender melhor o fluxo de dados dos sistemas governamentais integrados
-* [ ] Estudar mais sobre as ferramentas Jupyter e Superset para análise e visualização
+* [ x ] Contribuir com documentação ou correção de bugs identificados
+* [ x ] Explorar em detalhes os modelos dbt existentes
+* [ x ] Participar de discussions ou issues abertas no repositório
+* [ x ] Compreender melhor o fluxo de dados dos sistemas governamentais integrados
+* [ x ] Estudar mais sobre as ferramentas Jupyter e Superset para análise e visualização
+
+---
+
+## Sprint 1 – \[11/09/2025 – 24/09/2025]
+
+### Resumo da Sprint
+
+Durante essa sprint defini e implementei alguns rulesets dentro do 
+repositório para impedir commits diretamente na branch `main`, também 
+estudei os DAG's para implementar a DAG de Emendas Parlamentares. 
+Também acompanhei as reuniões de treinamento e explicações da 
+arquitetura feitas pelos mantenedores.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo | Link/Referência | Status |
+| -- | -- | -- | -- | -- |
+| 11/09 | Análise das APIs do Portal da Transparência | Estudo | https://api.portaldatransparencia.gov.br/swagger-ui/index.html | Concluído |
+| 13/09 | Estudo das APIs da Câmara dos Deputados | Estudo | https://dadosabertos.camara.leg.br/swagger/api.html?tab=api | Concluído |
+| 15/09 | Implementação de rulesets para proteção da branch main | Código | Configurações do repositório | Concluído |
+| 18/09 | Estudo dos DAGs existentes no projeto | Estudo | DAGs do Airflow | Concluído |
+| 20/09 | Planejamento da implementação da DAG de Emendas Parlamentares | Planejamento | Documentação técnica | Concluído |
+| 24/09 | Acompanhamento nas reuniões de treinamento e explicações da arquitetura | Treinamento | Reuniões com mantenedores | Concluído |
+
+### Maiores Avanços
+
+* **Proteção da branch main**: Implementei com sucesso rulesets no repositório para impedir commits diretos na branch principal, garantindo maior segurança e controle de qualidade do código.
+* **Análise das APIs governamentais**: Estudei detalhadamente as APIs do Portal da Transparência e Câmara dos Deputados, compreendendo suas estruturas e possibilidades de integração.
+* **Estudo dos DAGs Airflow**: Aprofundei o conhecimento sobre os DAGs existentes no projeto, preparando-me para implementar a DAG de Emendas Parlamentares.
+* **Capacitação técnica**: Acompanhei as reuniões de treinamento com os mantenedores, absorvendo conhecimento sobre a arquitetura e melhores práticas do projeto.
+
+### Maiores Dificuldades
+
+* **Complexidade das APIs governamentais**: As APIs do Portal da Transparência e Câmara dos Deputados apresentaram estruturas de dados complexas que exigiram tempo adicional para compreensão.
+* **Implementação de rulesets**: Configurar adequadamente os rulesets de proteção da branch main demandou estudo sobre as configurações do GitHub e boas práticas.
+* **Curva de aprendizado do Airflow**: Compreender os DAGs existentes e planejar a implementação da nova DAG de Emendas Parlamentares foi desafiador.
+* **Integração de conhecimentos**: Conectar os conhecimentos teóricos sobre as APIs com a implementação prática no ambiente Airflow apresentou dificuldades.
+
+### Aprendizados
+
+* **Configuração de rulesets**: Aprendi como implementar proteções de branch no GitHub, garantindo qualidade e segurança do código através de workflows automatizados.
+* **Análise de APIs governamentais**: Compreendi a estrutura e funcionamento das APIs do Portal da Transparência e Câmara dos Deputados, identificando oportunidades de integração.
+* **Desenvolvimento de DAGs**: Aprofundei meu conhecimento sobre orquestração de dados com Airflow, estudando DAGs existentes para implementar a DAG de Emendas Parlamentares.
+* **Gestão de dados governamentais**: Percebi os desafios específicos de trabalhar com dados públicos e a importância de estruturas bem definidas para ingestão.
+
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Implementar a DAG de Emendas Parlamentares baseada nos estudos realizados
+* [ ] Refinar e otimizar os rulesets implementados na branch main
+* [ ] Contribuir com abertura de issues específicas para desenvolvimento das DAGs de ingestão
+* [ ] Aprofundar conhecimentos sobre as APIs estudadas através de testes práticos
+* [ ] Participar ativamente das discussões sobre políticas GCES para comunidade aberta
+* [ ] Documentar os aprendizados sobre as APIs governamentais para facilitar contribuições futuras
