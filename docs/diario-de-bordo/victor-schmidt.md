@@ -100,9 +100,70 @@ arquitetura feitas pelos mantenedores.
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Implementar a DAG de Emendas Parlamentares baseada nos estudos realizados
-* [ ] Refinar e otimizar os rulesets implementados na branch main
-* [ ] Contribuir com abertura de issues específicas para desenvolvimento das DAGs de ingestão
-* [ ] Aprofundar conhecimentos sobre as APIs estudadas através de testes práticos
+* [ x ] Implementar a DAG de Emendas Parlamentares baseada nos estudos realizados
+* [ x ] Refinar e otimizar os rulesets implementados na branch main
+* [ x ] Contribuir com abertura de issues específicas para desenvolvimento das DAGs de ingestão
+* [ x ] Aprofundar conhecimentos sobre as APIs estudadas através de testes práticos
+* [ x ] Participar ativamente das discussões sobre políticas GCES para comunidade aberta
+* [ x ] Documentar os aprendizados sobre as APIs governamentais para facilitar contribuições futuras
+
+---
+
+## Sprint 2 – \[25/09/2025 – 08/10/2025]
+
+### Resumo da Sprint
+
+Durante esse Sprint implementei a ingestão de dados de emendas parlamentares do Portal da Transparência. Criei uma DAG do Airflow que coleta dados via API com paginação automática e persiste no PostgreSQL usando UPSERT com IDs únicos baseados em hash SHA256.
+
+Desenvolvi 17 testes (9 unitários + 8 de integração) alcançando 100% de cobertura no ClienteEmendas. Implementei configurações com .env.example para segurança de API keys e reorganizei a estrutura de pastas do projeto.
+
+A DAG foi testada em ambiente real com dados inseridos corretamente no banco.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo | Link/Referência | Status |
+| -- | -- | -- | -- | -- |
+| 25/09 | Implementação da DAG de ingestão de emendas parlamentares | Código | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 27/09 | Desenvolvimento do ClienteEmendas com paginação automática | Código | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 29/09 | Implementação de UPSERT com IDs únicos SHA256 | Código | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 01/10 | Desenvolvimento de testes unitários (9 testes) | Teste | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 03/10 | Desenvolvimento de testes de integração (8 testes) | Teste | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 05/10 | Configuração de segurança com .env.example | Código | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 06/10 | Reorganização da estrutura de pastas do projeto | Código | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+| 08/10 | Teste da DAG em ambiente real com dados no banco | Teste | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6) | Concluído |
+
+### Maiores Avanços
+
+* **Implementação completa da DAG de Emendas Parlamentares**: Criei uma DAG funcional do Airflow que coleta dados de emendas parlamentares do Portal da Transparência com paginação automática e persiste no PostgreSQL usando UPSERT com IDs únicos SHA256.
+* **Desenvolvimento de testes abrangentes**: Implementei 17 testes (9 unitários + 8 de integração) alcançando 100% de cobertura no ClienteEmendas, garantindo qualidade e confiabilidade do código.
+* **Configurações de segurança**: Implementei configurações com .env.example para proteção de API keys e remoção de dados sensíveis do histórico do repositório.
+* **Reorganização da estrutura do projeto**: Melhorei a organização das pastas e estrutura do código, facilitando manutenção e contribuições futuras.
+* **Validação em ambiente real**: Testei a DAG em ambiente real com dados inseridos corretamente no banco, confirmando o funcionamento end-to-end.
+
+### Maiores Dificuldades
+
+* **Implementação de paginação automática**: Desenvolver a lógica de paginação automática para esgotar todos os dados da API do Portal da Transparência foi complexo, exigindo tratamento de diferentes cenários de resposta.
+* **Geração de IDs únicos SHA256**: Implementar o sistema de UPSERT com IDs únicos baseados em hash SHA256 demandou compreensão profunda da estrutura dos dados e garantia de consistência.
+* **Desenvolvimento de testes abrangentes**: Criar 17 testes cobrindo cenários de sucesso, erro e edge cases exigiu planejamento detalhado e mocks complexos para API e banco de dados.
+* **Configuração de segurança**: Implementar as configurações de segurança com .env.example e remover dados sensíveis do histórico do repositório apresentou desafios de gerenciamento de credenciais.
+* **Integração com PostgreSQL**: Garantir que a persistência dos dados no PostgreSQL funcionasse corretamente com UPSERT e metadados técnicos demandou testes extensivos.
+
+### Aprendizados
+
+* **Desenvolvimento de DAGs Airflow**: Aprofundei significativamente meu conhecimento sobre orquestração de dados, implementando uma DAG completa com paginação automática, retry automático e logs detalhados.
+* **Sistemas de UPSERT com IDs únicos**: Aprendi a implementar estratégias robustas de persistência usando hash SHA256 para garantir unicidade e evitar duplicação de dados em reprocessamentos.
+* **Desenvolvimento de testes abrangentes**: Compreendi a importância de cobertura de testes completa (100%), aprendendo a estruturar testes unitários e de integração com mocks para APIs e bancos de dados.
+* **Configurações de segurança**: Adquiri conhecimento sobre boas práticas de segurança, implementando .env.example e gerenciando credenciais de forma segura em projetos colaborativos.
+* **Paginação automática em APIs**: Aprendi a implementar lógica robusta de paginação que esgota todos os dados disponíveis em APIs governamentais, tratando diferentes cenários de resposta.
+* **Metadados técnicos**: Compreendi a importância de gerar metadados técnicos por registro para auditoria e rastreabilidade de dados governamentais.
+
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Contribuir com abertura de issues específicas para desenvolvimento de novas DAGs de ingestão baseadas nas APIs estudadas
+* [ ] Aplicar os conhecimentos adquiridos sobre testes para melhorar a cobertura de outros componentes do projeto
+* [ ] Implementar melhorias na DAG de Emendas Parlamentares baseadas em feedback e novos requisitos
 * [ ] Participar ativamente das discussões sobre políticas GCES para comunidade aberta
-* [ ] Documentar os aprendizados sobre as APIs governamentais para facilitar contribuições futuras
+* [ ] Documentar os aprendizados sobre desenvolvimento de DAGs para facilitar contribuições de outros membros da equipe
+* [ ] Explorar implementação de novas funcionalidades como monitoramento e alertas para as DAGs
+* [ ] Contribuir com refatorações e otimizações na estrutura do projeto baseadas na experiência adquirida
