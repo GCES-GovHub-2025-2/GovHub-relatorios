@@ -80,3 +80,32 @@ Nesta sprint, meu foco foi realizar minha primeira contribuição de código par
 * [ ] Criar testes para a nova DAG de ingestão.
 * [ ] Iniciar o estudo de uma nova fonte de dados para uma futura contribuição.
 
+## Sprint 2– 24/09/2025 – 07/10/2025
+
+### Resumo da Sprint
+
+Nesta sprint, meu foco foi tentar fazer o PR da DAG de deputados e resolver um bug que impedia salvar corretamente os dados e implementar os testes
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
+| --- | --- | --- | --- | --- |
+| 29/09 | Estudo dos testes em python | Estudo | - | Concluído |
+| 02/10 | Implementação de testes na DAG de deputados | Código | - | Concluído |
+| 01/10-08/10 | Tentaiva de consertar o bug no salvamento de deputados em diferentes tempos de legislaturas | Código | [Branch específica](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/tree/dag_deputados) | Em andamento |
+
+### Maiores Avanços
+
+### Maiores Dificuldades
+
+* **Garantir a integridade dos dados** A princípio, tive dificuldadde resolver os problemas de manter os deputados salvos pela DAG
+
+### Aprendizados
+
+* **Teste em Python:** Consegui implementar teste que passaram usando jester, o que melhorou a minha rapidez de realiza-os para outras sprints
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Resolver o bug no salvamento
+* [ ] Começar a implementação do modelo bronze para a tabela deputados
+
