@@ -40,10 +40,10 @@ Essa sprint foi focada em organizar a equipe, criar o fork e o repositório, al�
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Contribuir com alguma documentação.
-* [ ] Participar da revisão de código de um colega, garantindo a aplicação das boas práticas de GCES.
+* [x] Contribuir com alguma documentação.
+* [x] Participar da revisão de código de um colega, garantindo a aplicação das boas práticas de GCES.
 * [ ] Estudar mais sobre Github Actions para replicar/melhorar as etapas do pipeline.
-* [ ] Estudar mais sobre as ferramentas Jupyter, Superset e Airflow para análise e visualização.
+* [x] Estudar mais sobre as ferramentas Jupyter, Superset e Airflow para análise e visualização.
 
 ---
 
@@ -80,5 +80,53 @@ Inicialmente, o objetivo era contribuir com issues relacionadas a pipelines. No 
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Lapidar a DAG criada, deixando-a mais modular e integrada ao restante do projeto.  
-* [ ] Documentar o processo de criação da DAG, descrevendo as decisões tomadas e os aprendizados.  
+* [x] Lapidar a DAG criada, deixando-a mais modular e integrada ao restante do projeto.  
+* [x] Documentar o processo de criação da DAG, descrevendo as decisões tomadas e os aprendizados.  
+
+---
+
+## Sprint 2 – [25/09 - 08/10]
+
+### Resumo da Sprint
+
+A sprint foi dedicada ao desenvolvimento e refatoração da DAG de ingestão de dados de emendas parlamentares. A DAG foi modularizada e adaptada para seguir o padrão e arquitetura do código já existente no projeto. Durante o processo, também foi necessário integrar o cliente da API com a DAG, garantindo que a ingestão ocorresse de forma compatível com os componentes da aplicação.
+
+---
+
+### Atividades Realizadas
+
+| Data    | Atividade                                                  | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status     |
+|---------|------------------------------------------------------------|-----------------------------------|-----------------|------------|
+| 03/10   | Refatoração da DAG de ingestão de emendas parlamentares    | Código                            | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/c63196c204357ed05b835e4e6bc31d12b98ca654) | Em andamento |
+| 04/10   | Refatoração da DAG de ingestão de emendas parlamentares    | Código                            | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/c63196c204357ed05b835e4e6bc31d12b98ca654) | Em andamento 
+| 06/10   | Finalização da DAG de ingestão de emendas parlamentares    | Código                            | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/4ff07ddc1c59c555e7f1b2523aa2b4983ddeed95) | Concluída
+
+---
+
+### Maiores Avanços
+
+* Modularizei a DAG para integrá-la ao padrão de organização do projeto, tornando o código mais limpo e reutilizável.  
+* Realizei a integração do cliente da API com a DAG.
+* Estabeleci uma base sólida para facilitar a manutenção e evolução futura da DAG, com estrutura de pastas e funções coerentes com o restante do repositório.
+
+---
+
+### Maiores Dificuldades
+
+* A API de emendas parlamentares retornava dados duplicados, o que causava problemas na consistência dos dados durante a inserção no banco de dados.  
+* A integração do cliente da API com a DAG exigiu ajustes e entendimento detalhado tanto do cliente quanto da arquitetura atual da ingestão.  
+
+---
+
+### Aprendizados
+
+* Aprendi como a modularização contribui para a escalabilidade de DAGs no Airflow, facilitando a manutenção e leitura do código.  
+* Compreendi melhor os desafios reais de integração entre componentes distintos em pipelines de dados (API + DAG + banco).  
+
+---
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Iniciar o tratamento de dados, colocando os dados no modelo bronze  
+* [ ] Criar testes unitários para as DAGs.
+* [ ] Documentar o funcionamento da DAG, incluindo possíveis erros da API e formas de tratá-los.  
