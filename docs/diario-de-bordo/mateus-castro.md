@@ -96,3 +96,42 @@ Nesta sprint, concentrei esforços no estudo aprofundado das APIs de dados gover
 ### Reflexões Pessoais
 
 Esta sprint representou um salto significativo no meu conhecimento técnico e na compreensão do potencial dos dados governamentais para transparência pública. O estudo das APIs revelou a amplitude de informações disponíveis e as possibilidades de contribuição para a sociedade através da tecnologia.
+
+---
+
+## Sprint 2 – 25/09/2025 – 08/10/2025
+
+### Resumo da Sprint
+
+Nesta etapa, foquei em três frentes que destravam o avanço do projeto: integração das emendas parlamentares a partir do Portal da Transparência, revisão da migração do pipeline de CI/CD e organização do plano de modelagem inicial (bronze) no DBT para as próximas entregas.
+
+### Atividades Realizadas
+
+| Data   | Atividade                                                                                         | Tipo            | Link/Referência                                                                                                                           | Status      |
+|--------|---------------------------------------------------------------------------------------------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| 26/09  | Revisão funcional e técnica da DAG de emendas parlamentares                                       | Revisão/Código  | PR #6: https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6                                                             | ✅ Concluído |
+| 30/09  | Feedback e validação da migração do CI/CD para GitHub Actions                                     | Revisão         | PR #11: https://github.com/GovHub-br/data-application-gov-hub/pull/11                                                                    | ✅ Concluído |
+| 03/10  | Mapeamento de atividades futuras e priorização para a modelagem DBT (camada bronze)               | Planejamento    | Issues: https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/8, https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/9, https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/10 | ✅ Concluído |
+| 05/10  | Desenho inicial do backlog de tabelas bronze e diretrizes de granularidade                        | Planejamento    | (Links a acrescentar)                                                                                                                     | 🔄 Em andamento |
+
+### Maiores Avanços
+
+- Integração via Portal da Transparência encaminhada e pronta para evoluções
+- Pipeline CI/CD migrado e consolidado
+- Plano bronze do DBT estruturado para o próximo ciclo
+
+### Maiores Dificuldades
+
+- Parametrização de segredos e permissões na nova esteira de CI/CD
+- Definir chaves naturais e níveis de detalhe para o bronze
+
+### Aprendizados
+
+- Ter ChangeLog e template de commit facilita revisão e histórico do projeto
+- Começar pelo bronze garante consistência para camadas posteriores
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Implementar primeiros modelos bronze no DBT
+- [ ] Documentar padrões de modelagem e contratos
+- [ ] Fortalecer validações nas DAGs com testes e alertas
