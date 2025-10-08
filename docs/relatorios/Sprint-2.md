@@ -27,6 +27,7 @@
 | Entrega                                                       | Status    | Link/Referência                                                                                                                                                                                                                                       | Observações                                                    |
 | ------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
 | Integração do Portal da Transparência (emendas parlamentares) | Concluído | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6)                                                                                                                                                                        | DAG de emendas implementada e validada                         |
+| Implementação de testes abrangentes                          | Concluído | [PR #6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6)                                                                                                                                                                        | 17 testes implementados (9 unitários + 8 de integração) com 100% de cobertura no ClienteEmendas |
 | Revisão e aprovação da migração do CI/CD                      | Concluído | [PR #11](https://github.com/GovHub-br/data-application-gov-hub/pull/11)                                                                                                                                                                               | Pipeline consolidada em GitHub Actions                         |
 | Adição de ChangeLog                                           | Concluído | [PR #51](https://github.com/GovHub-br/gov-hub/pull/51/files)                                                                                                                                                                                          | Registro de mudanças padronizado                               |
 | Template de commit no repositório de relatórios               | Concluído | [PR #16](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/pull/16)                                                                                                                                                                             | Padronização de mensagens de commit (incentivo a Conventional) |
@@ -49,6 +50,7 @@
 ## 4. Maiores Avanços
 
 -   Integração inicial de dados de emendas parlamentares via Portal da Transparência
+-   **Implementação de testes abrangentes**: Desenvolvimento de 17 testes (9 unitários + 8 de integração) alcançando 100% de cobertura no ClienteEmendas, garantindo qualidade e confiabilidade do código
 -   Pipeline CI/CD consolidada na organização, reduzindo fricção entre repositórios
 -   Padronização documental (ChangeLog) e de processo (template de commit)
 -   Backlog de modelagem DBT bronze estruturado para próximas iterações
@@ -69,6 +71,8 @@
 -   Consolidar CI/CD cedo reduz riscos e acelera ciclos de entrega
 -   Começar pela camada bronze do DBT ajuda a alinhar expectativas de schema e qualidade de dados
 -   Definição simples de templates de contribuição (commits, PRs, issues) melhora a experiência de novos colaboradores
+-   **Desenvolvimento de testes abrangentes**: A implementação de testes unitários e de integração com 100% de cobertura é fundamental para garantir qualidade e confiabilidade do código, especialmente em sistemas de ingestão de dados críticos
+-   **Estratégias de teste para APIs e bancos**: O uso de mocks para APIs e bancos de dados em testes permite validação robusta sem dependências externas
 
 ---
 
@@ -77,5 +81,6 @@
 -   [ ] Implementar primeiros modelos DBT (bronze) a partir do backlog definido
 -   [ ] Evoluir a integração do Portal da Transparência (incluindo paginação, rate limits e enriquecimentos)
 -   [ ] Finalizar a persistência e agendamento das DAGs de deputados
+-   [ ] **Expandir cobertura de testes**: Aplicar os conhecimentos adquiridos sobre testes para melhorar a cobertura de outros componentes do projeto
 -   [ ] Adicionar testes e monitoramento básico (alertas) nas DAGs
 -   [ ] Ampliar documentação de dados e do processo de contribuição
