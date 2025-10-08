@@ -1,4 +1,4 @@
-# Diário de Bordo – \[Maykon Júnio dos Santos Soares\]
+# Diário de Bordo – [Maykon Júnio dos Santos Soares]
 
 **Disciplina:** GCES  
 **Equipe:** GovHub  
@@ -37,5 +37,47 @@ Na sprint de abertura, o objetivo principal foi conhecer melhor o projeto **GovH
 - [ ] Contribuir em pelo menos uma melhoria de documentação ou correção de bug.
 - [ ] Explorar em detalhe os modelos dbt existentes no repositório.
 - [ ] Participar de discussions ou issues da comunidade.
-- [ X ] Mapear o fluxo de dados dos sistemas governamentais já integrados.
+- [x] Mapear o fluxo de dados dos sistemas governamentais já integrados.
 - [ ] Aprofundar o uso do Superset e do Jupyter para análise.
+
+---
+
+## Sprint 2 – 25/09/2025 – 08/10/2025
+
+### Resumo da Sprint
+
+Nesta sprint, o foco foi melhorar a **documentação de contribuição do projeto**, adicionando um tutorial claro de instalação e primeiros passos no arquivo `CONTRIBUTING.md`. Isso faz parte do planejamento de **onboarding de novos contribuidores**, garantindo que novos participantes consigam facilmente instalar, configurar e executar o projeto localmente.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                          | Tipo (Código/Doc/Discussão/Outro) | Link/Referência                                                                       | Status    |
+| ----- | ------------------------------------------------------------------ | --------------------------------- | ------------------------------------------------------------------------------------- | --------- |
+| 13/09 | Criação de tutorial de instalação no CONTRIBUTING.md               | Documentação                      | [Issue #57](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/57) | Concluído |
+| 14/09 | Planejamento de onboarding e revisão de padrões de contribuição    | Documentação                      | [Commit feat: adiciona tutorial de instalação em CONTRIBUTING.md](#)                  | Concluído |
+| 15/09 | Teste de instalação e execução local do projeto para novos membros | Teste                             | docs/onboarding.md                                                                    | Concluído |
+
+### Maiores Avanços
+
+- Tutorial de instalação adicionado ao arquivo `CONTRIBUTING.md`.
+- Documentação de onboarding mais clara e estruturada.
+- Processo de entrada para novos contribuidores simplificado e testado.
+
+### Maiores Dificuldades
+
+- Ajustar a documentação para diferentes sistemas operacionais.
+- Garantir que todas as dependências fossem bem descritas no guia.
+- Testar a clareza da documentação com novos contribuidores.
+
+### Aprendizados
+
+- A importância de um bom guia de contribuição para a escalabilidade da comunidade.
+- Como estruturar documentação técnica para diferentes perfis de usuários.
+- Estratégias para validar documentação na prática.
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Iniciar melhorias no pipeline de dados, começando pelo modelo bronze.
+- [ ] Refatorar pequenas partes da ingestão para maior clareza.
+- [ ] Explorar automação de testes de instalação no CI.
+
+---
