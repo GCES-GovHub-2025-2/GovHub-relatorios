@@ -81,3 +81,45 @@ Paralelamente, participei de discussões de gestão com a equipe e realizei uma 
 - **Documentação como base do projeto:** percebi que criar novos documentos é importante, mas aprimorar e manter atualizadas as políticas de GCES já existentes é ainda mais valioso para a maturidade do projeto. Esse processo me ensinou a ser mais crítico, a analisar detalhes e a buscar consistência entre diferentes arquivos.
 
 - **Trabalho em equipe e troca de conhecimento:** as discussões de gestão e a prática de pair programming reforçaram a relevância da colaboração. Aprendi que compartilhar dificuldades e soluções acelera o aprendizado coletivo e fortalece o alinhamento técnico.
+
+---
+
+## Sprint 2 – [25/09/2025 – 08/10/2025]
+
+### Resumo da Sprint
+
+Durante a Sprint 2, o foco esteve na **melhoria da organização e transparência do repositório**, consolidando práticas de rastreabilidade e padronização. Foram implementadas três ações principais:  
+1. **Criação do CHANGELOG.md**, permitindo documentar cada modificação relevante do projeto e garantir transparência nas versões.  
+2. **Realocação e reestruturação de documentos**, com o objetivo de aprimorar a clareza e a navegabilidade do repositório, facilitando o acesso às informações por parte dos colaboradores.  
+3. **Criação de templates automatizados de issues**, com configuração de exibição automática de opções ao abrir novas issues, padronizando o processo de contribuição e comunicação entre os membros da equipe.
+
+Essas melhorias fortaleceram a governança de GCES, garantiram rastreabilidade de mudanças e promoveram um fluxo de trabalho mais estruturado e profissional.  
+
+### Atividades Realizadas
+
+| Data  | Atividade                                   | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status    |
+| ----- | ------------------------------------------- | --------------------------------- | --------------- | --------- |
+| 27/09 | Criação e estruturação do arquivo CHANGELOG.md para registro de alterações e versões | Documentação | – | Concluído |
+| 30/09 | Reorganização dos diretórios e realocação de arquivos/documentos para melhorar clareza e padronização | Documentação | – | Concluído |
+| 02/10 | Criação de templates automatizados de issue (bug report e feature request) e configuração do config.yml | Documentação | – | Concluído |
+| 04/10 | Revisão geral da estrutura documental e atualização dos links e referências internas após realocação | Documentação | – | Concluído |
+
+### Maiores Avanços
+
+- **Transparência e rastreabilidade do projeto:** a criação do CHANGELOG.md trouxe maior visibilidade sobre a evolução do repositório, permitindo rastrear cada mudança de forma clara e cronológica, essencial para auditoria e governança.  
+- **Clareza estrutural:** a reorganização dos diretórios tornou o repositório mais intuitivo, reduzindo ruído visual e tornando a navegação mais lógica tanto para novos colaboradores quanto para revisores.  
+- **Padronização e automação de processos:** os novos templates automatizados de issue aumentaram a consistência das contribuições e reduziram ambiguidades no relato de bugs e solicitações, fortalecendo a comunicação interna e a qualidade da manutenção do código.  
+
+### Maiores Dificuldades
+
+- **Garantir compatibilidade após realocação de arquivos:** a mudança de diretórios exigiu atualização de múltiplos caminhos relativos e links internos. Foi necessário revisar cuidadosamente a documentação para evitar referências quebradas.  
+- **Definição do formato ideal do changelog:** foi preciso alinhar o nível de detalhe adequado para o CHANGELOG.md, equilibrando a clareza das informações com a concisão esperada para um documento de controle de versões.  
+
+### Aprendizados
+
+- **Importância da rastreabilidade:** percebi que manter um registro claro das alterações, por meio de um changelog bem estruturado, é fundamental para a confiabilidade e a transparência do projeto, além de facilitar futuras auditorias e revisões.  
+- **Valor da organização documental:** a experiência reforçou a importância de manter uma estrutura de pastas e arquivos coerente, de modo a garantir acessibilidade e compreensão das políticas de GCES.  
+- **Automação como pilar de governança:** a implementação de templates automatizados mostrou como pequenas automações podem gerar impacto significativo na consistência e eficiência do fluxo de contribuição.  
+
+---
+
