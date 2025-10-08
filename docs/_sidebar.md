@@ -4,6 +4,7 @@
 
   - [Sprint 0](relatorios/Sprint-0.md)
   - [Sprint 1](relatorios/Sprint-1.md)
+  - [Sprint 2](relatorios/Sprint-2.md)
 
 - **Diários de Bordo**
   - [Davi Aguiar](diario-de-bordo/davi-de-aguiar-vieira.md)
