@@ -81,3 +81,60 @@ Nesta sprint, o foco foi melhorar a **documentação de contribuição do projet
 - [ ] Explorar automação de testes de instalação no CI.
 
 ---
+
+## Sprint 3 – 09/10/2025 – 22/10/2025
+
+### Resumo da Sprint
+
+Nesta sprint, o foco principal foi consolidar as melhorias de documentação e implementação realizadas nas sprints anteriores e avançar na padronização de testes automatizados e contribuições. O destaque foi a **criação do guia completo de contribuição**, incluindo padrões de commit, branch e pull request, e a **validação do ambiente de desenvolvimento**, garantindo que novos contribuidores consigam iniciar rapidamente o projeto.
+
+Além disso, foram realizados **testes automatizados com pytest** para validar a integração das funcionalidades principais, e ajustes finos na documentação de onboarding.
+
+---
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                                | Tipo (Código/Doc/Discussão/Outro) | Link/Referência                                                                       | Status    |
+| ----- | ------------------------------------------------------------------------ | --------------------------------- | ------------------------------------------------------------------------------------- | --------- |
+| 09/10 | Revisão do CONTRIBUTING.md e inclusão de padrões de commit e branch      | Documentação                      | [Issue #57](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/57) | Concluído |
+| 10/10 | Criação de exemplos de pull requests e checklist de validação            | Documentação                      | CONTRIBUTING.md                                                                       | Concluído |
+| 13/10 | Implementação de testes automatizados com pytest                         | Código                            | tests/test_example.py                                                                 | Concluído |
+| 15/10 | Validação da execução de testes e correção de pequenas inconsistências   | Teste                             | pytest                                                                                | Concluído |
+| 18/10 | Atualização do fluxo de onboarding com base em feedback de novos membros | Discussão/Documentação            | docs/onboarding.md                                                                    | Concluído |
+| 20/10 | Revisão final de documentação e checklist de merge                       | Documentação                      | CONTRIBUTING.md / Pull Requests                                                       | Concluído |
+| 21/10 | Testes de instalação do projeto em diferentes ambientes (Windows/Linux)  | Teste                             | Ambiente local e VMs                                                                  | Concluído |
+
+---
+
+### Maiores Avanços
+
+- Guia de contribuição totalmente estruturado e validado.
+- Testes automatizados configurados e executados com sucesso.
+- Processo de onboarding revisado e simplificado, incluindo checklist de PR.
+- Melhoria na clareza e padronização de commits e branches para toda a equipe.
+
+---
+
+### Maiores Dificuldades
+
+- Garantir compatibilidade das instruções de instalação em diferentes sistemas operacionais.
+- Ajustar pequenas inconsistências nos testes automatizados.
+- Sincronizar feedbacks de revisão de documentação com as alterações de código.
+
+---
+
+### Aprendizados
+
+- A importância de um guia de contribuição completo para novos membros da comunidade.
+- Como padronizar testes automatizados de forma prática usando pytest.
+- Experiência em revisão de documentação e integração de feedbacks de equipe.
+- Prática em manutenção de consistência entre código, documentação e processos de contribuição.
+
+---
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Iniciar desenvolvimento de melhorias no pipeline de dados (modelo Bronze).
+- [ ] Explorar automação de testes de integração no CI/CD.
+- [ ] Refatorar trechos do código de ingestão para maior clareza e modularidade.
+- [ ] Documentar boas práticas de uso do Superset para análise de dados integrados.
