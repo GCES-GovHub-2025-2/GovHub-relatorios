@@ -134,3 +134,47 @@ Consolidei entregas-chave para o avanço do ecossistema: acompanhei a integraç�
 - [ ] Implementar modelos DBT (bronze) para emendas
 - [ ] Documentar decisões de modelagem e contratos de dados
 - [ ] Evoluir DAGs com testes e alertas básicos
+
+---
+
+## Sprint 3 – 09/10/2025 – 22/10/2025
+
+### Resumo da Sprint
+
+Nesta sprint, participei ativamente do levantamento das atividades e da discussão coletiva sobre as entregas planejadas. A troca de ideias com o time foi essencial para alinhar expectativas e garantir que todos estivessem cientes dos objetivos e desafios da sprint.
+
+Além disso, produzi uma vídeo aula detalhada sobre o processo de instalação e inicialização do ambiente do projeto, que ficará disponível em [https://gov-hub.io/documentacao/instalacao/](https://gov-hub.io/documentacao/instalacao/). O objetivo foi facilitar o onboarding de novos membros e padronizar o setup para toda a equipe.
+
+Também realizei a revisão técnica do Pull Request de ingestão de deputados ([PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11)), contribuindo com sugestões e validações para garantir a qualidade da integração dos dados.
+
+### Atividades Realizadas
+
+| Data   | Atividade                                                                 | Tipo           | Link/Referência                                                                 | Status      |
+|--------|---------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------|-------------|
+| 10/10  | Levantamento de atividades e alinhamento com a equipe                     | Planejamento   | –                                                                               | ✅ Concluído |
+| 15/10  | Gravação de vídeo aula de instalação e setup do ambiente                   | Documentação   | [Instalação](https://gov-hub.io/documentacao/instalacao/)                       | ✅ Concluído |
+| 20/10  | Revisão técnica do PR de ingestão de deputados                            | Revisão/Código | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11) | ✅ Concluído |
+
+### Maiores Avanços
+
+- Alinhamento eficiente das atividades da sprint com a equipe
+- Produção de material audiovisual para facilitar o onboarding
+- Contribuição direta na validação da ingestão de dados de deputados
+
+### Maiores Dificuldades
+
+- Sintetizar as demandas da equipe para garantir foco nas entregas principais
+- Garantir que o vídeo tutorial atendesse diferentes níveis de experiência
+
+### Aprendizados
+
+- A comunicação clara e o alinhamento de expectativas são fundamentais para o sucesso da sprint
+- Materiais de apoio, como vídeo aulas, aceleram o onboarding e reduzem dúvidas recorrentes
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Apoiar a evolução da ingestão de dados e testes
+- [ ] Produzir novos materiais de apoio conforme necessidade
+- [ ] Participar da modelagem DBT bronze para as novas inserções
+
+---

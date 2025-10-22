@@ -135,3 +135,47 @@ Nesta etapa, foquei em três frentes que destravam o avanço do projeto: integra
 - [ ] Implementar primeiros modelos bronze no DBT
 - [ ] Documentar padrões de modelagem e contratos
 - [ ] Fortalecer validações nas DAGs com testes e alertas
+
+---
+
+## Sprint 3 – 09/10/2025 – 22/10/2025
+
+### Resumo da Sprint
+
+Durante a sprint 3, participei do levantamento das atividades e das discussões estratégicas com o grupo, contribuindo para o alinhamento das entregas e prioridades. O diálogo constante com os colegas foi fundamental para garantir que todos estivessem engajados e cientes dos objetivos.
+
+Gravei uma vídeo aula explicando o processo de instalação e inicialização do ambiente do projeto, que ficará disponível em [https://gov-hub.io/documentacao/instalacao/](https://gov-hub.io/documentacao/instalacao/). Esse material visa facilitar o acesso dos novos integrantes e uniformizar o setup técnico da equipe.
+
+Também atuei na revisão do Pull Request de ingestão de deputados ([PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11)), analisando o código e sugerindo melhorias para garantir a robustez da integração dos dados.
+
+### Atividades Realizadas
+
+| Data   | Atividade                                                                 | Tipo           | Link/Referência                                                                 | Status      |
+|--------|---------------------------------------------------------------------------|----------------|---------------------------------------------------------------------------------|-------------|
+| 10/10  | Levantamento de atividades e alinhamento estratégico com o grupo           | Planejamento   | –                                                                               | ✅ Concluído |
+| 15/10  | Produção de vídeo aula sobre instalação e setup do ambiente                 | Documentação   | [Instalação](https://gov-hub.io/documentacao/instalacao/)                       | ✅ Concluído |
+| 20/10  | Revisão do PR de ingestão de deputados                                     | Revisão/Código | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11) | ✅ Concluído |
+
+### Maiores Avanços
+
+- Alinhamento das entregas e prioridades da sprint
+- Elaboração de vídeo tutorial para onboarding técnico
+- Participação ativa na revisão da ingestão de dados de deputados
+
+### Maiores Dificuldades
+
+- Traduzir as demandas do grupo em tarefas objetivas e viáveis
+- Produzir um vídeo tutorial acessível para diferentes perfis de usuários
+
+### Aprendizados
+
+- O alinhamento estratégico entre os membros potencializa os resultados da sprint
+- Materiais audiovisuais são ferramentas poderosas para integração e capacitação
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Contribuir para o avanço dos testes e ingestão de dados
+- [ ] Criar novos conteúdos de apoio conforme surgirem necessidades
+- [ ] Participar da modelagem DBT bronze para as novas inserções
+
+---
