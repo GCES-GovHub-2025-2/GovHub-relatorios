@@ -109,3 +109,38 @@ Nesta sprint, meu foco foi tentar fazer o PR da DAG de deputados e resolver um b
 * [ ] Resolver o bug no salvamento
 * [ ] Começar a implementação do modelo bronze para a tabela deputados
 
+## Sprint 3 – 08/10/2025 – 21/10/2025
+
+### Resumo da Sprint
+
+Nesta sprint, o foco principal foi a resolução definitiva do bug que impedia o salvamento correto dos dados de deputados de diferentes legislaturas. Após corrigir o problema e refatorar o código, todo o trabalho desenvolvido na DAG de deputados foi submetido para revisão através de um Pull Request, marcando um passo importante na contribuição para o projeto.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
+| --- | --- | --- | --- | --- |
+| 10/10 | Análise e correção final do bug no salvamento de dados das legislaturas | Código | [Branch específica](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/tree/dag_deputados) | Concluído |
+| 17/10 | Refatoração e limpeza do código da DAG para adequação aos padrões do projeto | Código | [Branch específica](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/tree/dag_deputados) | Concluído |
+| 18/10 | Revisão final dos testes e preparação para o Pull Request | Código | [Branch específica](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/tree/dag_deputados) | Concluído |
+| 19/10 | Abertura e submissão do Pull Request para a DAG de deputados | Código/Discussão | [Pull Request #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11) | Concluído |
+| 20/10 | Início do planejamento da tabela bronze para deputados | Código/Discussão | [Pull Request #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11) | Concluído |
+
+### Maiores Avanços
+
+* **Resolução de bug complexo:** Consegui identificar e corrigir a falha na lógica de salvamento de dados, garantindo a integridade e a correta persistência das informações coletadas pela DAG.
+* **Submissão do primeiro Pull Request:** A finalização e submissão da DAG de deputados para revisão pela equipe representa a conclusão de um ciclo de desenvolvimento completo, desde o estudo até a entrega da funcionalidade.
+
+### Maiores Dificuldades
+
+* **Depuração do fluxo de dados:** Entender exatamente em que ponto do pipeline os dados estavam sendo sobrescritos ou perdidos exigiu um esforço considerável de depuração e testes incrementais.
+
+### Aprendizados
+
+* **Processo de Code Review:** Aprendi na prática como funciona o processo de submeter um PR em um projeto colaborativo, incluindo a importância de descrever claramente as mudanças.
+* **Técnicas de depuração em pipelines de dados:** A dificuldade com o bug me forçou a aprimorar minhas habilidades de debugging em Python e Airflow para rastrear problemas em fluxos de dados.
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Iniciar a implementação do modelo na camada bronze para a tabela de deputados.
+* [ ] Discutir com o par sobre a implementação do código.
+
