@@ -34,6 +34,8 @@
 | Maykon Júnio dos Santos Soares | Criação e padronização do guia de contribuição, testes automatizados com pytest e validação do ambiente de desenvolvimento | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11) / CONTRIBUTING.md | Foco em documentação e testes     |
 | Davi de Aguiar Vieira          | Revisão da ingestão de deputados, apoio na validação dos testes e início da modelagem DBT bronze                           | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11)                   | Foco em ingestão e testes         |
 | Mateus de Castro Santos        | Participação na revisão da ingestão, validação dos testes e colaboração na estruturação da modelagem bronze                | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11)                   | Foco em testes e modelagem bronze |
+| Leonardo Fachinello Bonetti        | Correção dos testes, otimização do código da DAG mantendo somente o necessário, correção do código para o padrão definido no projeto, envio do pull request da dag de deputados e inicio da modelagem bronze de deputados          | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/11)  [Issue #4](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/4)                 | Foco na finalização do PR e inicio da modelagem bronze |
+
 
 ---
 
