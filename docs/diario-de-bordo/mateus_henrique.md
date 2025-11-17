@@ -130,3 +130,100 @@ A sprint foi dedicada ao desenvolvimento e refatoração da DAG de ingestão de 
 * [ ] Iniciar o tratamento de dados, colocando os dados no modelo bronze  
 * [ ] Criar testes unitários para as DAGs.
 * [ ] Documentar o funcionamento da DAG, incluindo possíveis erros da API e formas de tratá-los.  
+
+## Sprint 3 – [09/10 - 22/10]
+
+### Resumo da Sprint
+
+A sprint foi dedicada ao desenvolvimento do modelo Bronze de Emendas Parlamentares no DBT, estruturando todo o fluxo necessário para ingestão, padronização e documentação dos dados provenientes do Portal da Transparência.
+Os testes foram estruturados, mas serão concluídos e executados apenas na Sprint 4, conforme planejamento.
+
+---
+
+### Atividades Realizadas
+
+| Data    | Atividade                                                  | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status     |
+|---------|------------------------------------------------------------|-----------------------------------|-----------------|------------|
+| 22/10   | Atualização do sources.yml com a nova fonte portal_transparencia    | Modelagem                           | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/a3ea2e4f25ffc7290588dcfd6f6e8d41ed54ee6d) | Concluído |
+| 22/10   | Criação do modelo Bronze emendas.sql com cast, limpeza e normalização    | Modelagem/DBT                          | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/d5a4aae032e41a54417d8fa8275805b789117860) | Concluído 
+| 22/10   | Estrutura inicial de testes unitários para Sprint 4 (não concluídos ainda)    | Testes                           | [Commit]() | Em andamento
+| 22/10   | Criação da documentação detalhada do modelo bronze    | Doc                           | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/9ca9c829fe765b0766885ce6831179607f97996a) | Concluído
+
+---
+
+### Maiores Avanços
+
+* Construção completa do modelo Bronze com tipagens, normalização e tratamento de valores financeiros brasileiros.
+* Documentação DBT altamente detalhada, incluindo descrições e testes declarativos.
+* Inclusão estruturada da nova fonte no projeto DBT.
+
+---
+
+### Maiores Dificuldades
+
+* Interpretar dados complexos da API do Portal da Transparência, especialmente campos financeiros em formato BR.
+* Garantir precisão numérica (numeric(15,2)) e consistência entre valores empenhados, liquidados e pagos.
+* Estruturar corretamente a documentação para que ficasse clara e completa sem redundância.
+* Mapear todos os nomes originais para nomes padronizados DBT com consistência.
+
+---
+
+### Aprendizados
+
+* O uso de modelos Bronze e padronizações iniciais fortalece significativamente a governança de dados.
+* A limpeza de valores financeiros exige cuidados extras para evitar.
+* Uma documentação bem escrita facilita o onboard de qualquer pessoa que venha trabalhar nos modelos.
+
+
+---
+
+### Plano Pessoal para a Próxima Sprint
+
+* [x] Finalizar e validar os testes que foram planejados.
+* [x] Criar documentação complementar sobre execução local e fluxo de ingestão.
+* [] Ajudar na definição das próximas camadas Silver/Gold para emendas parlamentares. 
+
+
+## Sprint 4 – [23/10 - 05/11]
+
+### Resumo da Sprint
+
+A sprint foi dedicada a implementação e validação completa da camada de testes relacionada ao modelo DBT de emendas parlamentares. Após a finalização do modelo bronze e sua documentação estruturada
+
+---
+
+### Atividades Realizadas
+
+| Data    | Atividade                                                  | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status     |
+|---------|------------------------------------------------------------|-----------------------------------|-----------------|------------|
+| 05/11   | Desenvolvimento da suíte com 12 testes para o modelo bronze   | Testes                           | [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Concluído |
+
+
+---
+
+### Maiores Avanços
+
+* Criação de uma suíte de testes altamente completa, cobrindo toda a lógica do modelo.
+* Inclusão estruturada da nova fonte no projeto DBT.
+
+---
+
+### Maiores Dificuldades
+
+* Garantir precisão e limites de numeric(15,2) nos testes.
+* Simular múltiplos cenários em testes unitários para cobrir casos reais da API do Portal da Transparência.
+---
+
+### Aprendizados
+
+* A construção de uma suíte sólida de testes é essencial para garantir a confiabilidade de um pipeline de dados.
+* A combinação entre teste unitário + lógica simulada + revisão de esquema aumenta a maturidade do projeto.
+
+
+---
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Apoiar a criação das camadas Silver de Emendas parlamentares
+* [ ] Expandir a cobertura de testes
+
