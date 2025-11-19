@@ -167,3 +167,47 @@ Essas atividades contribuíram diretamente para aprimorar a rastreabilidade das 
 
 ---
 
+## Sprint 4 – 23/10/2025 – 06/11/2025
+
+### Resumo da Sprint
+
+Durante esta sprint, concentrei meus esforços em supervisionar e fechar issues dos repositórios [data-application-gov-hub](https://github.com/GovHub-br/data-application-gov-hub/issues) e [gov-hub](https://github.com/GovHub-br/gov-hub/issues). Nesse sentido, atuei tanto em issues de bug, como a [#15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) como também issues de conformidade e documentação, como a [#14](https://github.com/GovHub-br/gov-hub/issues/14), [#55](https://github.com/GovHub-br/gov-hub/issues/55) e [#8](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/issues/8)
+
+Além disso, realizei o Pull Request [#84](https://github.com/GovHub-br/gov-hub/pull/84) referente à Atualização e Expanção Padrões de Pull Request e Issue no Guia de Contribuição a fim de garantir mais clareza e objetividade no que é esperado dos padrões de issue, pull request, commit e branching.
+
+Essas atividades contribuíram diretamente para aprimorar a rastreabilidade das mudanças e reforçar as boas práticas de contribuição no repositório.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                | Tipo                 | Link/Referência                                        | Status      |
+| ----- | -------------------------------------------------------- | -------------------- | ------------------------------------------------------ | ----------- |
+| 18/11 | Atualização e Expanção Padrões de Pull Request e Issue no Guia de Contribuição      | Documentaçãp        | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84)                                                      | ✅ Concluído |
+| 17/11 | Revisão do issue de template de Pull Request | Revisão/Código       | [#55](https://github.com/GovHub-br/gov-hub/issues/55) | ✅ Concluído |
+| 18/11 | Revisão do issue de bug em exportação de planilhas     | Revisão/Documentação | [#15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | ✅ Concluído |
+
+### Maiores Avanços
+
+- Consolidação de um **padrão mais robusto de contribuição** para o projeto, incluindo PRs, issues, commits e branches, melhorando a organização e previsibilidade do fluxo de trabalho.
+- Revisão e fechamento de múltiplas issues em diferentes repositórios, contribuindo para a **redução do backlog** e maior estabilidade do ecossistema.
+- Melhor compreensão das dependências e integrações entre os repositórios do Gov Hub BR, ampliando minha visão sistêmica do projeto.
+- Contribuição significativa para a **padronização e clareza da documentação**, facilitando o onboarding de novos contribuidores.
+
+### Maiores Dificuldades
+
+- Interpretar contextos distintos entre diferentes repositórios, exigindo maior atenção para entender cada fluxo e necessidade antes da revisão.
+- Manter consistência entre documentos escritos por contribuintes diversos ao longo do tempo.
+- Analisar issues técnicas, como erros de exportação de planilhas, demandou investigação cuidadosa sobre o comportamento esperado e a origem do problema.
+
+### Aprendizados
+
+- Reforcei a importância de **documentações bem estruturadas** para acelerar revisões, evitar retrabalho e facilitar contribuições futuras.
+- Aprimorei minha capacidade de **padronizar processos de contribuição**, garantindo clareza e alinhamento entre diferentes equipes e colaboradores.
+- Aprofundei meu entendimento do ecossistema Gov Hub BR, aprendendo como os módulos se relacionam e onde cada parte impacta o todo.
+- As revisões contínuas fortaleceram minha prática de **boas práticas de versionamento, rastreabilidade e governança de código**.
+
+
+
+
+---
+
+
