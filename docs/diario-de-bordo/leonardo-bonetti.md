@@ -144,3 +144,32 @@ Nesta sprint, o foco principal foi a resolução definitiva do bug que impedia o
 * [ ] Iniciar a implementação do modelo na camada bronze para a tabela de deputados.
 * [ ] Discutir com o par sobre a implementação do código.
 
+## Sprint 4 – 22/10/2025 – 05/11/2025
+
+### Resumo da Sprint
+
+Nesta sprint, o foco principal foi começar a tabela bronze de deputados, anaisando o que devia ser formatado e padronizado na tabela.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
+| --- | --- | --- | --- | --- |
+| 26/10 | Criação da tabela bronze de deputados | Código | https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87 | Concluída |
+| 27/10 | Teste se a tabela era filtrada no airflow | Teste | https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87 | Concluída |
+
+
+### Maiores Avanços
+
+* **Criação da tabela bronze de deputados** Consegui criar a tabela e commitar seguindo os padões do projeto
+* 
+### Maiores Dificuldades
+
+* **Como definir o que padronizar em casos de id ou url de fotos** Entender como fazer uma boa padronização de urls de fotos, algo que não é testavel facilmente
+
+### Aprendizados
+
+
+### Plano Pessoal para a Próxima Sprint
+
+* [ ] Terminar o PR com a tabela completa com testes
+
