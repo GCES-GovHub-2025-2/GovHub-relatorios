@@ -18,10 +18,10 @@ No sprint inicial, nosso foco foi preparar a equipe e o ambiente local de cada i
 
 | Data  | Atividade                                   | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status    |
 | ----- | ------------------------------------------- | --------------------------------- | --------------- | --------- |
-| 08/09 | Configuração inicial do ambiente            | Código                            | –               | Concluído |
-| 08/09 | Leitura e estudo da documentação do projeto | Estudo                            | -    | Concluído |
-| 08/09 | Criação e estruturação do repositório de documentação      | Código                         |  [Link](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/tree/main)  | Concluído |
-| 09/09 | Preenchimento de dados no relatório da Sprint 0      | Formulário                         | [Link](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/blob/main/docs/relatorios/Sprint-0.md)   | Concluído |
+| 08/09 | Configuração inicial do ambiente            | Código                            | –               | ✅ Concluído |
+| 08/09 | Leitura e estudo da documentação do projeto | Estudo                            | -    | ✅ Concluído |
+| 08/09 | Criação e estruturação do repositório de documentação      | Código                         |  [Repositório Criado](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/tree/main)  | ✅ Concluído |
+| 09/09 | Preenchimento de dados no relatório da Sprint 0      | Formulário                         | [Relatório](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/blob/main/docs/relatorios/Sprint-0.md)   | ✅ Concluído |
 
 ### Maiores Avanços
 
@@ -57,10 +57,11 @@ Paralelamente, participei de discussões de gestão com a equipe e realizei uma 
 
 | Data  | Atividade                                   | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status    |
 | ----- | ------------------------------------------- | --------------------------------- | --------------- | --------- |
-| 18/09 | Reunião com a equipe para alinhamento sobre a estrutura, documentação e objetivos | Discussão | – | Concluído |
-| 21/09 | Reunião de par programming para analisar conformidade do projeto com políticas de código e documentação de GCES | Código e Documentação | – | Concluído |
-| 21/09 | Pull Request do checklist de GCES e criação de issues para contribuição coletiva | Documentação | - | Concluído |
-| 22/09 | Criação de CONTRIBUTING.md, CODE_OF_CONDUCT.md e implementação de config.yml em em folder de templates de issue + inclusão de outros casos de issue (bug) | Documentação | – | Concluído |
+| 18/09 | Reunião com a equipe para alinhamento sobre a estrutura, documentação e objetivos | Discussão | [Reunião](https://unbbr.sharepoint.com/:v:/s/GCES-GovHub/EYrOutQ0LolElFxdvpaC9HIB4ievbv2DvaoHX2_KcENrcw?e=83DvhU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                       | ✅ Concluído |
+| 21/09 | Reunião de par programming para analisar conformidade do projeto com políticas de código e documentação de GCES | Código e Documentação | – | ✅ Concluído |
+| 21/09 | Pull Request do checklist de GCES e criação de issues para contribuição coletiva | Documentação | [Conformidade GCES](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/pull/5) | ✅ Concluído |
+| 22/09 | Criação de CONTRIBUTING.md e implementação de config.yml em em folder de templates de issue + inclusão de outros casos de issue (bug) | Documentação | [Contributing](https://github.com/GovHub-br/gov-hub/blob/main/docs/documentacao/CONTRIBUTING.md) | ✅ Concluído |
+| 22/09 | Criação de CODE_OF_CONDUCT.md| Documentação | [Code of Conduct](https://github.com/GovHub-br/gov-hub/blob/main/docs/documentacao/CODE_OF_CONDUCT.md)| ✅ Concluído |
 
 ### Maiores Avanços
 
@@ -102,10 +103,10 @@ Essas melhorias fortaleceram a governança de GCES, garantiram rastreabilidade d
 
 | Data  | Atividade                                   | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status    |
 | ----- | ------------------------------------------- | --------------------------------- | --------------- | --------- |
-| 27/09 | Criação e estruturação do arquivo CHANGELOG.md para registro de alterações e versões | Documentação | – | Concluído |
-| 30/09 | Reorganização dos diretórios e realocação de arquivos/documentos para melhorar clareza e padronização | Documentação | – | Concluído |
-| 02/10 | Criação de templates automatizados de issue (bug report e feature request) e configuração do config.yml | Documentação | – | Concluído |
-| 04/10 | Revisão geral da estrutura documental e atualização dos links e referências internas após realocação | Documentação | – | Concluído |
+| 27/09 | Criação e estruturação do arquivo CHANGELOG.md para registro de alterações e versões | Documentação | [Changelog](https://github.com/GovHub-br/gov-hub/blob/main/docs/documentacao/CHANGELOG.md) | ✅ Concluído |
+| 30/09 | Reorganização dos diretórios e realocação de arquivos/documentos para melhorar clareza e padronização | Documentação | [Reestruturação de arquivos](https://github.com/GovHub-br/gov-hub/pull/51) | ✅ Concluído |
+| 02/10 | Criação de templates automatizados de issue (bug report e feature request) e configuração do config.yml | Documentação | – | ✅ Concluído |
+| 04/10 | Revisão geral da estrutura documental e atualização dos links e referências internas após realocação | Documentação | – | ✅ Concluído |
 
 ### Maiores Avanços
 
@@ -123,3 +124,90 @@ Essas melhorias fortaleceram a governança de GCES, garantiram rastreabilidade d
 - Importância da rastreabilidade: percebi que manter um registro claro das alterações, por meio de um changelog bem estruturado, é fundamental para a confiabilidade e a transparência do projeto, além de facilitar futuras auditorias e revisões.  
 - Valor da organização documental: a experiência reforçou a importância de manter uma estrutura de pastas e arquivos coerente, de modo a garantir acessibilidade e compreensão das políticas de GCES.  
 - Automação como pilar de governança: a implementação de templates automatizados mostrou como pequenas automações podem gerar impacto significativo na consistência e eficiência do fluxo de contribuição.
+
+Aqui está o diário de bordo atualizado com as novas tarefas de revisão de PRs, formatado em **Markdown**:
+
+---
+
+## Sprint 3 – 09/10/2025 – 22/10/2025
+
+### Resumo da Sprint
+
+Durante esta sprint, concentrei meus esforços em automatizar o **changelog** do projeto e em revisar contribuições importantes relacionadas à padronização dos fluxos de colaboração.
+A automação do changelog teve como objetivo otimizar o processo de registro de alterações, tornando-o mais rápido, padronizado e menos suscetível a erros humanos.
+
+Além disso, realizei revisões detalhadas dos Pull Requests referentes à atualização do template de PRs e à adição das políticas de contribuição, garantindo consistência e clareza na documentação e nos padrões de colaboração do projeto **GovHub**.
+
+Essas atividades contribuíram diretamente para aprimorar a rastreabilidade das mudanças e reforçar as boas práticas de contribuição no repositório.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                | Tipo                 | Link/Referência                                        | Status      |
+| ----- | -------------------------------------------------------- | -------------------- | ------------------------------------------------------ | ----------- |
+| 22/10 | Desenvolvimento e automação do changelog do projeto      | Automação/CI         | [PR #68](https://github.com/GovHub-br/gov-hub/pull/68)                                                      | ✅ Concluído |
+| 22/10 | Revisão do PR de atualização do template de Pull Request | Revisão/Código       | [PR #56](https://github.com/GovHub-br/gov-hub/pull/56) | ✅ Concluído |
+| 22/10 | Revisão do PR de adição de políticas de contribuição     | Revisão/Documentação | [PR #67](https://github.com/GovHub-br/gov-hub/pull/67) | ✅ Concluído |
+
+### Maiores Avanços
+
+* Implementação de um processo automatizado de changelog, reduzindo o esforço manual.
+* Padronização da documentação de contribuição e dos modelos de PRs.
+* Reforço das boas práticas de colaboração, contribuindo para um fluxo de desenvolvimento mais coeso e transparente.
+
+### Maiores Dificuldades
+
+* Ajuste fino dos parâmetros de geração automática para refletir corretamente o formato esperado.
+* Garantir compatibilidade da automação com o pipeline de CI/CD existente.
+* Manter uniformidade entre os diferentes documentos de contribuição e templates do repositório.
+
+### Aprendizados
+
+* A integração contínua deve ser planejada de forma modular para facilitar futuras expansões.
+* Revisões de PR bem documentadas são fundamentais para garantir qualidade e transparência no ciclo de desenvolvimento.
+
+---
+
+## Sprint 4 – 23/10/2025 – 06/11/2025
+
+### Resumo da Sprint
+
+Durante esta sprint, concentrei meus esforços em supervisionar e fechar issues dos repositórios [data-application-gov-hub](https://github.com/GovHub-br/data-application-gov-hub/issues) e [gov-hub](https://github.com/GovHub-br/gov-hub/issues). Nesse sentido, atuei tanto em issues de bug, como a [#15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) como também issues de conformidade e documentação, como a [#14](https://github.com/GovHub-br/gov-hub/issues/14), [#55](https://github.com/GovHub-br/gov-hub/issues/55) e [#8](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/issues/8)
+
+Além disso, realizei o Pull Request [#84](https://github.com/GovHub-br/gov-hub/pull/84) referente à Atualização e Expanção Padrões de Pull Request e Issue no Guia de Contribuição a fim de garantir mais clareza e objetividade no que é esperado dos padrões de issue, pull request, commit e branching.
+
+Essas atividades contribuíram diretamente para aprimorar a rastreabilidade das mudanças e reforçar as boas práticas de contribuição no repositório.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                | Tipo                 | Link/Referência                                        | Status      |
+| ----- | -------------------------------------------------------- | -------------------- | ------------------------------------------------------ | ----------- |
+| 18/11 | Atualização e Expanção Padrões de Pull Request e Issue no Guia de Contribuição      | Documentaçãp        | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84)                                                      | ✅ Concluído |
+| 17/11 | Revisão do issue de template de Pull Request | Revisão/Código       | [#55](https://github.com/GovHub-br/gov-hub/issues/55) | ✅ Concluído |
+| 18/11 | Revisão do issue de bug em exportação de planilhas     | Revisão/Documentação | [#15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | ✅ Concluído |
+
+### Maiores Avanços
+
+- Consolidação de um **padrão mais robusto de contribuição** para o projeto, incluindo PRs, issues, commits e branches, melhorando a organização e previsibilidade do fluxo de trabalho.
+- Revisão e fechamento de múltiplas issues em diferentes repositórios, contribuindo para a **redução do backlog** e maior estabilidade do ecossistema.
+- Melhor compreensão das dependências e integrações entre os repositórios do Gov Hub BR, ampliando minha visão sistêmica do projeto.
+- Contribuição significativa para a **padronização e clareza da documentação**, facilitando o onboarding de novos contribuidores.
+
+### Maiores Dificuldades
+
+- Interpretar contextos distintos entre diferentes repositórios, exigindo maior atenção para entender cada fluxo e necessidade antes da revisão.
+- Manter consistência entre documentos escritos por contribuintes diversos ao longo do tempo.
+- Analisar issues técnicas, como erros de exportação de planilhas, demandou investigação cuidadosa sobre o comportamento esperado e a origem do problema.
+
+### Aprendizados
+
+- Reforcei a importância de **documentações bem estruturadas** para acelerar revisões, evitar retrabalho e facilitar contribuições futuras.
+- Aprimorei minha capacidade de **padronizar processos de contribuição**, garantindo clareza e alinhamento entre diferentes equipes e colaboradores.
+- Aprofundei meu entendimento do ecossistema Gov Hub BR, aprendendo como os módulos se relacionam e onde cada parte impacta o todo.
+- As revisões contínuas fortaleceram minha prática de **boas práticas de versionamento, rastreabilidade e governança de código**.
+
+
+
+
+---
+
+
