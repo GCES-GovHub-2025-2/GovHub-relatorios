@@ -188,3 +188,44 @@ Esta sprint representou a conclusão integral da **Gerência de Configuração e
 A sprint final marcou a **entrega completa da gerência de configuração do GovHub-br**, atingindo todos os requisitos definidos. O repositório agora reflete maturidade técnica, automação robusta e documentação exemplar — uma base sólida para evolução contínua e contribuições da comunidade.
 
 ---
+
+## Sprint 4 – 23/10/2025 a 06/11/2025
+
+### Resumo da Sprint (S4)
+
+Nesta sprint, concentrei esforços na **supervisão, revisão e fechamento de issues** nos repositórios principais do ecossistema GovHub-br. Atuei tanto em correções de bugs quanto em tarefas de documentação e conformidade, garantindo a consistência e evolução dos padrões estabelecidos nas sprints anteriores.
+
+Além disso, contribuí diretamente com **Leticia Aires**, oferecendo suporte e revisão nas atividades que ela executou durante a sprint, garantindo alinhamento técnico, qualidade e padronização das entregas.
+
+Realizei também o Pull Request **#84**, responsável por aprimorar os padrões de contribuição — abrangendo regras de PR, issues, commits e branching — reforçando a clareza, rastreabilidade e previsibilidade do fluxo colaborativo.
+
+### Atividades Realizadas (S4)
+
+| Data  | Atividade                                                                                          | Categoria            | Referência                                                                   | Status       |
+| ----- | -------------------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------------------------------------------- | ------------ |
+| 18/11 | Atualização e expansão dos padrões de Pull Request e Issue no Guia de Contribuição                 | Documentação         | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84)                       | ✅ Concluído |
+| 17/11 | Revisão da issue sobre template de Pull Request                                                    | Revisão/Código       | [Issue #55](https://github.com/GovHub-br/gov-hub/issues/55)                  | ✅ Concluído |
+| 18/11 | Revisão da issue de bug na exportação de planilhas                                                 | Revisão/Documentação | [Issue #15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | ✅ Concluído |
+| 23–06 | Apoio e colaboração direta com Leticia Aires nas tarefas da sprint (análises, revisões e feedback) | Suporte/Colaboração  | Interações internas na equipe                                                | ✅ Concluído |
+
+### Principais Avanços (S4)
+
+-   Consolidação de um **padrão de contribuição mais completo e robusto**, reforçando a estrutura de issues e PRs.
+-   Redução do **backlog distribuído entre múltiplos repositórios**, ao revisar e fechar issues técnicas e de documentação.
+-   Aprimoramento da **visão sistêmica** do projeto, entendendo dependências e o fluxo entre data-application, gov-hub e relatórios.
+-   Suporte ativo à **Leticia Aires**, garantindo alinhamento técnico e contribuindo para a entrega consistente da sprint.
+
+### Principais Desafios (S4)
+
+-   Interpretação de contextos distintos entre repositórios com propósitos diferentes dentro do ecossistema.
+-   Manutenção da consistência documental ao lidar com materiais escritos por diversos colaboradores ao longo do tempo.
+-   Investigação técnica de bugs — como os relacionados à exportação de planilhas — exigiu análise criteriosa do comportamento esperado.
+
+### Conhecimentos Adquiridos (S4)
+
+-   Reforço da importância de **documentações claras, padronizadas e rastreáveis** para garantir eficiência e reduzir retrabalho.
+-   Melhoria na capacidade de **padronizar processos colaborativos**, garantindo alinhamento entre múltiplas equipes.
+-   Aprofundamento na estrutura modular do GovHub-br e nos impactos entre seus componentes.
+-   Fortalecimento das práticas avançadas de **versionamento, governança de código e rastreabilidade**.
+
+---
