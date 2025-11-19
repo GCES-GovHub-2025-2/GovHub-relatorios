@@ -50,6 +50,14 @@ A experiência de revisar e aprimorar a documentação foi fundamental para ente
 
 ---
 
+
+
+### Reflexões Pessoais
+
+A experiência de revisar e aprimorar a documentação foi fundamental para entender a importância da comunicação clara em projetos de software. Percebi que pequenos ajustes podem facilitar muito o trabalho em equipe e o aprendizado dos novos integrantes. Estou motivado para continuar contribuindo e aprendendo com o projeto GovHub-br.
+
+---
+
 ## Sprint 1 – 11/09/2025 – 24/09/2025
 
 ### Resumo da Sprint
@@ -176,5 +184,54 @@ Também realizei a revisão técnica do Pull Request de ingestão de deputados (
 - [ ] Apoiar a evolução da ingestão de dados e testes
 - [ ] Produzir novos materiais de apoio conforme necessidade
 - [ ] Participar da modelagem DBT bronze para as novas inserções
+
+---
+
+## Sprint 4 – 23/10/2025 – 05/11/2025
+
+### Resumo da Sprint
+
+Nesta sprint, concentrei esforços na implementação da ingestão de dados do Transferegov, especificamente dos programas especiais e planos de ação especiais. Este trabalho envolveu o estudo aprofundado da API do Transferegov, compreensão das estruturas de dados e desenvolvimento das DAGs de ingestão necessárias para integrar essas informações ao pipeline de dados do GovHub.
+
+A colaboração com o Mateus foi fundamental para o sucesso da entrega, permitindo que dividíssemos as responsabilidades e validássemos as implementações de forma conjunta.
+
+### Atividades Realizadas
+
+| Data   | Atividade                                                                 | Tipo           | Link/Referência                                      | Status      |
+|--------|---------------------------------------------------------------------------|----------------|------------------------------------------------------|-------------|
+| 25/10  | Estudo da API do Transferegov e mapeamento dos endpoints de programas especiais | Pesquisa       | –                                                    | ✅ Concluído |
+| 28/10  | Implementação da DAG de ingestão de programas especiais do Transferegov   | Código         | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35) | ✅ Concluído |
+| 01/11  | Desenvolvimento da ingestão de planos de ação especiais do Transferegov   | Código         | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35) | ✅ Concluído |
+| 04/11  | Revisão e testes das ingestões implementadas                              | Revisão/Testes | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35) | ✅ Concluído |
+
+### Maiores Avanços
+
+- Integração bem-sucedida dos dados de programas especiais do Transferegov ao pipeline
+- Implementação da ingestão de planos de ação especiais, ampliando a cobertura de dados governamentais
+- Validação das ingestões através de testes práticos
+- Colaboração efetiva com o time para garantir a qualidade das entregas
+
+### Maiores Dificuldades
+
+- Compreensão da estrutura complexa e pouco documentada da API do Transferegov
+- Definição dos campos relevantes e estratégias de paginação para otimizar as ingestões
+- Garantir a robustez das DAGs para lidar com possíveis inconsistências nos dados da API
+
+### Aprendizados
+
+- A análise criteriosa das APIs governamentais é essencial antes de iniciar a implementação
+- O trabalho colaborativo acelera a resolução de problemas e melhora a qualidade do código
+- A validação constante durante o desenvolvimento evita retrabalho e garante entregas mais sólidas
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Documentar as decisões de modelagem dos dados do Transferegov
+- [ ] Apoiar a evolução das ingestões com melhorias e otimizações
+- [ ] Contribuir para a modelagem DBT bronze dos novos dados integrados
+- [ ] Expandir cobertura de testes para as novas ingestões
+
+### Reflexões Pessoais
+
+Esta sprint foi marcada por um aprendizado significativo sobre a complexidade dos dados governamentais e a importância de uma abordagem estruturada para ingestão de dados. A colaboração com o time foi fundamental para superar os desafios técnicos e entregar soluções robustas que ampliam o potencial do GovHub em promover transparência pública.
 
 ---
