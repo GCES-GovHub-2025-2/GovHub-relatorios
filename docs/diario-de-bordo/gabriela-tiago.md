@@ -108,5 +108,76 @@ A importância de templates claros para agilizar o processo de revisão de códi
 ### Plano Pessoal para a Próxima Sprint
 
 -   [ ] Iniciar o desenvolvimento da DAG definida na Sprint 1.
-
 -   [ ] Ajudar a equipe a adotar os novos padrões de commit e PR.
+
+## Sprint 3 – 09/10/2025 – 22/10/2025
+
+### Resumo da Sprint
+
+Nesta sprint tive impedimentos pessoais que exigiram re-priorização das atividades. Não consegui entregar contribuições significativas: tarefas planejadas foram adiadas ou apenas iniciadas. Aproveitei o período para revisar documentação e preparar o contexto técnico necessário, com objetivo de retomar a implementação da DAG e entregar mudanças incrementais na próxima sprint.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                 |     Tipo      |         Link/Referência          |    Status    |
+| :---: | ----------------------------------------- | :-----------: | :------------------------------: | :----------: |
+| 10/10 | Impedimentos pessoais e re-priorização    |    Gestão     |                —                 |  ⛔ Adiado   |
+| 12/10 | Revisão da documentação do projeto        |    Estudo     |      README, docs internos       | ✅ Concluído |
+| 16/10 | Preparação do contexto técnico para a DAG | Estudo/Config | Arquitetura, issues relacionadas | ✅ Concluído |
+
+### Maiores Avanços
+
+-   Revisão abrangente da documentação e guidelines do projeto.
+-   Preparação do contexto técnico necessário para implementar a DAG.
+
+### Maiores Dificuldades
+
+-   Impedimentos pessoais que reduziram o tempo disponível e provocaram adiamentos.
+-   Algumas dependências técnicas ainda precisam ser esclarecidas antes da implementação completa.
+
+### Aprendizados
+
+-   A importância de manter documentação atualizada para facilitar retomadas.
+-   Planejar margens para riscos pessoais e comunicar bloqueios à equipe precocemente.
+
+### Plano Pessoal para a Próxima Sprint
+
+-   [ ] Retomar implementação da DAG e submeter PRs incrementais.
+-   [ ] Resolver dependências técnicas identificadas e atualizar documentação.
+-   [ ] Participar de revisão de código e apoiar colegas na adoção dos templates.
+
+## Sprint 4 – 23/10/2025 – 19/11/2025
+
+### Resumo da Sprint
+
+Nesta sprint, ajudei a equipe a adotar templates de commit e PRs que criei anteriormente. Atuando na gerência de configuração, implementei o modelo de commit para o repositório principal e para o de relatórios, além de colaborar com o Daniel na atualização do template de Pull Request. Essas ações visaram melhorar a padronização e a qualidade do código no projeto.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                |     Tipo     |                             Link/Referência                             |    Status    |
+| :---: | -------------------------------------------------------- | :----------: | :---------------------------------------------------------------------: | :----------: |
+| 19/11 | Implementação do template de commit (COMMIT_TEMPLATE.md) | Documentação | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37) | ✅ Concluído |
+| 19/11 | Atualização do template de Pull Request                  | Documentação |   [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9)    | ✅ Concluído |
+
+### Maiores Avanços
+
+-   Padronização do processo de commit para todos os contribuidores do projeto.
+-   Contribuição direta para a melhoria da qualidade e legibilidade do histórico do repositório.
+-   Colaboração efetiva com outro membro da equipe em uma tarefa de governança.
+
+### Maiores Dificuldades
+
+-   Garantir que os templates fossem genéricos o suficiente para todos os casos de uso, mas específicos o bastante para serem úteis.
+-   Incentivar a adoção dos novos padrões entre todos os membros da equipe.
+-   Lidar com resistências iniciais à mudança nos processos estabelecidos.
+
+### Aprendizados
+
+-   Aplicação prática da especificação Conventional Commits para padronização.
+-   Como criar e implementar arquivos de saúde da comunidade (.github) em um projeto.
+-   A importância de templates claros para agilizar o processo de revisão de código.
+  
+### Plano Pessoal para a Próxima Sprint
+
+-   [ ] Monitorar a adoção dos templates e oferecer suporte à equipe.
+-   [ ] Coletar feedback para melhorias contínuas nos processos de contribuição.
+-  [ ] Explorar outras áreas de governança e contribuir para a saúde do projeto.

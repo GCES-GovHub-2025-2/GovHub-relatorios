@@ -24,6 +24,7 @@
 | Ingestão de planos de ação especiais Transferegov    | Concluído | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                     | Ampliação da cobertura de dados              |
 | Desenvolvimento de testes para modelo bronze de emendas | Concluído | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Suíte com 12 testes implementada |
 | Atualização do Guia de Contribuição                  | Concluído | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84)                                                      | Padronização de PRs, issues e commits        |
+| Aplicação da gerência de configuração a repositórios da organização | Concluído | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37), [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9) | Adição de padrões de commit em projetos além do gov-hub; padronização organizacional |
 
 ---
 
@@ -36,6 +37,7 @@
 | Mateus Henrique Queiroz Magalhães Sousa | Desenvolvimento da suíte de testes para o modelo bronze de emendas parlamentares                                   | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Foco em testes e qualidade |
 | Victor Hugo Lima Schmidt       | Desenvolvimento da suíte de testes para o modelo bronze de emendas parlamentares                                           | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Foco em testes e validação |
 | Letícia Aires                  | Supervisão e fechamento de issues, atualização do Guia de Contribuição com padrões de PR, issue, commit e branching       | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84), [Issue #55](https://github.com/GovHub-br/gov-hub/issues/55), [Issue #15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | Foco em documentação e governança |
+| Gabriela Tiago                | Aplicação da gerência de configuração a repositórios da organização, criação de templates para padronização de commits       | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37) e [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9) | Foco em documentação e gerência de configuração |
 
 ---
 
