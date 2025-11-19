@@ -93,3 +93,98 @@ Nesta sprint, executei todas as atividades planejadas anteriormente, com foco em
 Esta sprint marcou a transição entre o estudo inicial e as primeiras contribuições práticas. A experiência trouxe segurança para avançar em atividades mais complexas e contribuiu para uma visão mais clara do papel do GovHub-br no ecossistema de dados públicos.
 
 ---
+
+## Sprint 2 – 21/09/2025 a 05/10/2025
+
+### Resumo da Sprint (S2)
+
+Nesta sprint, o foco foi a implementação prática dos parâmetros de **Gerência de Configuração de Software (GCES)** no projeto **GovHub-br**, com a criação de um **checklist de conformidade**, integração de automações e início da padronização de práticas de versionamento e entrega contínua.
+
+### Atividades Realizadas (S2)
+
+| Data  | Atividade                                            | Categoria     | Referência                                   | Status       |
+| ----- | ---------------------------------------------------- | ------------- | -------------------------------------------- | ------------ |
+| 23/09 | Elaboração do checklist de GCES para o projeto       | Documentação  | [Checklist GCES](../GCES/checklist.md)       | ✅ Concluído |
+| 25/09 | Análise e ajustes na estrutura de versionamento      | Implementação | git log / tags                               | ✅ Concluído |
+| 27/09 | Configuração de workflows de CI com GitHub Actions   | Implementação | .github/workflows                            | ✅ Concluído |
+| 02/10 | Integração do SonarQube e testes automatizados       | Implementação | sonar-project.properties / workflows         | ✅ Concluído |
+| 04/10 | Validação dos arquivos de ambiente e containerização | Implementação | Dockerfile, docker-compose.yml, .env.example | ✅ Concluído |
+
+### Principais Avanços (S2)
+
+-   Estruturação inicial da **automação de build, testes e linting** via GitHub Actions.
+-   Integração com **SonarQube** para análise de qualidade do código.
+-   Criação do **checklist de conformidade GCES**, garantindo rastreabilidade e padronização.
+-   Definição das práticas de versionamento e estrutura de repositório.
+
+### Principais Desafios (S2)
+
+-   Configuração detalhada das ferramentas de CI/CD e integração com SonarQube.
+-   Adaptação das práticas teóricas de GCES à estrutura real do GovHub-br.
+
+### Conhecimentos Adquiridos (S2)
+
+-   Aplicação prática dos princípios de **CI/CD e GCES**.
+-   Uso de **SonarQube** para análise contínua de qualidade.
+-   Definição de pipelines e versionamento semântico.
+
+### Planejamento Pessoal para a Próxima Sprint (S2)
+
+-   [ ] Implementar templates de issues e PRs.
+-   [ ] Documentar os padrões de código e estrutura do projeto.
+-   [ ] Automatizar o versionamento e releases.
+-   [ ] Realizar limpeza e padronização completa do repositório.
+
+### Considerações Finais (S2)
+
+A sprint consolidou a base da gerência de configuração e pavimentou o caminho para a automatização e padronização completa do projeto GovHub-br.
+
+---
+
+## Sprint 3 – 06/10/2025 a 20/10/2025
+
+### Resumo da Sprint (S3)
+
+Esta sprint representou a conclusão integral da **Gerência de Configuração e Evolução de Software** do projeto. Foram implementados templates, padrões, guias de contribuição, automações e validações, atingindo 100% dos critérios de GCES e garantindo um repositório profissional, limpo e sustentável.
+
+### Atividades Realizadas (S3)
+
+| Data  | Atividade                                       | Categoria     | Referência                                               | Status       |
+| ----- | ----------------------------------------------- | ------------- | -------------------------------------------------------- | ------------ |
+| 08/10 | Criação dos templates de Issues e PRs (YAML)    | Documentação  | .github/ISSUE_TEMPLATE/\*.yml / PULL_REQUEST_TEMPLATE.md | ✅ Concluído |
+| 10/10 | Criação dos guias de padrões de código          | Documentação  | docs/standards/\*                                        | ✅ Concluído |
+| 12/10 | Documentação da estrutura e fluxo do projeto    | Documentação  | docs/structure.md / docs/architecture.md                 | ✅ Concluído |
+| 14/10 | Implementação de Dependabot e CodeQL            | Implementação | .github/dependabot.yml / .github/workflows/codeql.yml    | ✅ Concluído |
+| 17/10 | Limpeza de arquivos temporários e revisão final | Manutenção    | .gitignore / limpeza de arquivos temporários             | ✅ Concluído |
+| 19/10 | Preparação do PR final                          | Integração    | feature/gerencia-configuracao → develop                  | ✅ Concluído |
+
+### Principais Avanços (S3)
+
+-   Implementação completa da **Gerência de Configuração**, cobrindo versionamento, automação, segurança e padrões.
+-   Criação de **templates de issues, PRs e documentação**, promovendo padronização colaborativa.
+-   Estabelecimento de **boas práticas de código**, documentação e controle de qualidade.
+-   Limpeza e reestruturação do repositório, com eliminação de arquivos temporários e redundantes.
+
+### Principais Desafios (S3)
+
+-   Garantir consistência entre documentação, automação e versionamento.
+-   Conciliar clareza técnica com acessibilidade para contribuidores futuros.
+
+### Conhecimentos Adquiridos (S3)
+
+-   Criação de **templates YAML estruturados** para issues e PRs.
+-   Configuração de **análises automatizadas de segurança (CodeQL, Dependabot)**.
+-   Estruturação de documentação modular e manutenível.
+-   Aplicação completa dos princípios de **GCES** em um projeto real.
+
+### Planejamento Pessoal Pós-Sprint (S3)
+
+-   [ ] Criar PR final e solicitar aprovação.
+-   [ ] Configurar proteção de branches.
+-   [ ] Aplicar as práticas consolidadas em outros repositórios.
+
+### Considerações Finais (S3)
+
+A sprint final marcou a **entrega completa da gerência de configuração do GovHub-br**, atingindo todos os requisitos definidos. O repositório agora reflete maturidade técnica, automação robusta e documentação exemplar — uma base sólida para evolução contínua e contribuições da comunidade.
+
+---
