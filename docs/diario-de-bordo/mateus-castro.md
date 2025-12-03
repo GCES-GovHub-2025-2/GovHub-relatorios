@@ -235,3 +235,53 @@ A colaboração com o Davi foi essencial para distribuir as tarefas e validar as
 Esta sprint proporcionou um aprendizado valioso sobre a complexidade das integrações com APIs governamentais e a importância de uma abordagem metodológica no desenvolvimento de pipelines de dados. O trabalho em equipe foi fundamental para superar os desafios técnicos e garantir entregas que contribuem significativamente para o objetivo do GovHub de promover transparência e acesso à informação pública.
 
 ---
+
+## Sprint 5 – 06/11/2025 – 19/11/2025
+
+### Resumo da Sprint
+
+Durante esta sprint, concentrei meus esforços em duas frentes principais de ingestão de dados: a implementação do pipeline de relatórios de gestão do Transferegov e a integração com o Portal Nacional de Contratações Públicas (PNCP). Ambas as iniciativas representam expansões significativas da cobertura de dados governamentais disponíveis no GovHub e demandam compreensão aprofundada de estruturas de dados complexas e desenvolvimento de DAGs robustas.
+
+### Atividades Realizadas
+
+| Data   | Atividade                                                                 | Tipo           | Link/Referência                                      | Status      |
+|--------|---------------------------------------------------------------------------|----------------|------------------------------------------------------|--------------|
+| 08/11  | Análise da API de relatórios de gestão do Transferegov                    | Pesquisa       | –                                                    | ✅ Concluído |
+| 11/11  | Desenvolvimento da DAG de ingestão de relatórios de gestão Transferegov   | Código         | [PR #48](https://github.com/GovHub-br/data-application-gov-hub/pull/48) | ✅ Concluído |
+| 14/11  | Estudo da API do PNCP e mapeamento de endpoints                           | Pesquisa       | –                                                    | ✅ Concluído |
+| 17/11  | Implementação da ingestão PNCP                                            | Código         | [PR #48](https://github.com/GovHub-br/data-application-gov-hub/pull/48) | ✅ Concluído |
+| 19/11  | Validação e testes das ingestões implementadas                            | Revisão/Testes | [PR #48](https://github.com/GovHub-br/data-application-gov-hub/pull/48) | ✅ Concluído |
+
+### Maiores Avanços
+
+- Implementação bem-sucedida da ingestão de relatórios de gestão do Transferegov
+- Integração completa com a API do Portal Nacional de Contratações Públicas (PNCP)
+- Expansão significativa da cobertura de dados governamentais no GovHub
+- Validação técnica das DAGs através de testes práticos
+
+### Maiores Dificuldades
+
+- Complexidade da estrutura de dados dos relatórios de gestão do Transferegov
+- Compreensão do modelo de dados do PNCP e seus múltiplos endpoints
+- Implementação de estratégias eficientes de paginação para grandes volumes de dados
+- Tratamento de inconsistências e formatos variados nos dados das APIs
+
+### Aprendizados
+
+- A integração com múltiplas fontes de dados governamentais exige flexibilidade nas estratégias de ingestão
+- Testes contínuos são fundamentais para garantir a confiabilidade dos pipelines
+- A documentação das decisões técnicas facilita manutenções futuras e onboarding de novos membros
+- A padronização dos processos de ingestão acelera o desenvolvimento de novos pipelines
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Documentar as estruturas de dados do Transferegov e PNCP
+- [ ] Expandir a cobertura de testes para os novos pipelines
+- [ ] Apoiar a modelagem DBT bronze para os dados recém-integrados
+- [ ] Otimizar performance das DAGs implementadas
+
+### Reflexões Pessoais
+
+Esta sprint representou um salto significativo na diversidade de dados governamentais integrados ao GovHub. O trabalho com relatórios de gestão e contratações públicas ampliou minha visão sobre a complexidade do ecossistema de transparência governamental e reforçou a importância do nosso trabalho para facilitar o acesso à informação pública. A colaboração contínua com a equipe foi essencial para superar os desafios técnicos e entregar soluções robustas.
+
+---

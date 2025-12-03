@@ -235,3 +235,53 @@ A colaboração com o Mateus foi fundamental para o sucesso da entrega, permitin
 Esta sprint foi marcada por um aprendizado significativo sobre a complexidade dos dados governamentais e a importância de uma abordagem estruturada para ingestão de dados. A colaboração com o time foi fundamental para superar os desafios técnicos e entregar soluções robustas que ampliam o potencial do GovHub em promover transparência pública.
 
 ---
+
+## Sprint 5 – 06/11/2025 – 19/11/2025
+
+### Resumo da Sprint
+
+Nesta sprint, meu foco principal esteve na garantia de qualidade das integrações desenvolvidas pela equipe. Realizei revisões técnicas detalhadas e testes rigorosos de três Pull Requests relacionados à ingestão de dados especiais do Transferegov: empenhos especiais, executor especial e plano de trabalho especial. Este trabalho foi essencial para assegurar a robustez e confiabilidade dos novos pipelines de dados antes de sua integração ao ambiente de produção.
+
+### Atividades Realizadas
+
+| Data   | Atividade                                                                 | Tipo           | Link/Referência                                      | Status      |
+|--------|---------------------------------------------------------------------------|----------------|------------------------------------------------------|-------------|
+| 07/11  | Revisão técnica e teste do PR de ingestão de empenhos especiais Transferegov | Revisão/Testes | [PR #45](https://github.com/GovHub-br/data-application-gov-hub/pull/45) | ✅ Concluído |
+| 12/11  | Revisão técnica e teste do PR de ingestão de executor especial Transferegov | Revisão/Testes | [PR #46](https://github.com/GovHub-br/data-application-gov-hub/pull/46) | ✅ Concluído |
+| 16/11  | Revisão técnica e teste do PR de ingestão de plano de trabalho especial   | Revisão/Testes | [PR #47](https://github.com/GovHub-br/data-application-gov-hub/pull/47) | ✅ Concluído |
+| 18/11  | Revisão técnica e teste do PR de ingestão de relatório de gestão Transferegov | Revisão/Testes | [PR #48](https://github.com/GovHub-br/data-application-gov-hub/pull/48) | ✅ Concluído |
+| 19/11  | Validação end-to-end das quatro ingestões implementadas                   | Testes         | –                                                    | ✅ Concluído |
+
+### Maiores Avanços
+
+- Revisão técnica completa de quatro PRs críticos para a expansão dos dados do Transferegov
+- Validação da qualidade e robustez das implementações através de testes rigorosos
+- Identificação e correção de potenciais problemas antes da integração em produção
+- Garantia de consistência nos padrões de código e boas práticas entre os diferentes pipelines
+
+### Maiores Dificuldades
+
+- Compreensão profunda das estruturas complexas de dados dos endpoints especiais do Transferegov
+- Elaboração de cenários de teste abrangentes para validar casos extremos e situações de erro
+- Coordenação entre revisão e desenvolvimento para garantir feedback rápido e efetivo
+- Verificação da integridade dos dados ingeridos considerando possíveis inconsistências nas APIs
+
+### Aprendizados
+
+- A revisão técnica rigorosa é fundamental para manter a qualidade e confiabilidade dos pipelines de dados
+- Testes abrangentes identificam problemas antes que impactem o ambiente de produção
+- A comunicação clara e feedback construtivo aceleram o ciclo de desenvolvimento
+- A padronização de processos de revisão melhora a eficiência e qualidade do trabalho em equipe
+
+### Plano Pessoal para a Próxima Sprint
+
+- [ ] Apoiar a documentação técnica das ingestões revisadas
+- [ ] Expandir a suíte de testes para os novos pipelines
+- [ ] Contribuir para a modelagem DBT bronze dos dados do Transferegov
+- [ ] Desenvolver checklist de revisão para padronizar futuras análises de PRs
+
+### Reflexões Pessoais
+
+Esta sprint reforçou minha compreensão sobre a importância da revisão técnica e dos testes na garantia de qualidade de software. O papel de revisor me proporcionou uma visão mais ampla sobre diferentes abordagens de implementação e fortaleceu minha capacidade de identificar potenciais problemas. A colaboração com os desenvolvedores foi enriquecedora e contribuiu significativamente para o amadurecimento técnico da equipe e a robustez do projeto GovHub.
+
+---
