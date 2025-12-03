@@ -41,9 +41,9 @@ Durante esta sprint inicial, estudei o GovHub-br, uma iniciativa brasileira de i
 
 ### Plano Pessoal para a Próxima Sprint
 
-* [ ] Implementar melhorias na documentação ou resolver issues identificados
-* [ ] Fazer deep dive nos modelos dbt para entender transformações específicas
-* [ ] Mapear detalhadamente o fluxo de dados entre os sistemas governamentais
+* [x ] Implementar melhorias na documentação ou resolver issues identificados
+* [ x] Fazer deep dive nos modelos dbt para entender transformações específicas
+* [ x] Mapear detalhadamente o fluxo de dados entre os sistemas governamentais
 
 ### Reflexões Pessoais
 
@@ -92,9 +92,9 @@ Esta mudança se mostrou estratégica, pois as emendas parlamentares representam
 
 ### Objetivos para a Próxima Sprint
 
-* [ ] **Finalização e otimização**: Refatorar e otimizar a DAG desenvolvida, implementando melhor modularização e integração com a arquitetura Medallion existente.
-* [ ] **Documentação técnica**: Criar documentação detalhada do processo de desenvolvimento da DAG, incluindo decisões arquiteturais, padrões adotados e lições aprendidas para facilitar contribuições futuras.
-* [ ] **Expansão do conhecimento**: Explorar outras fontes de dados governamentais que poderiam se beneficiar de abordagem similar, ampliando o impacto do trabalho realizado.
+* [x] **Finalização e otimização**: Refatorar e otimizar a DAG desenvolvida, implementando melhor modularização e integração com a arquitetura Medallion existente.
+* [x ] **Documentação técnica**: Criar documentação detalhada do processo de desenvolvimento da DAG, incluindo decisões arquiteturais, padrões adotados e lições aprendidas para facilitar contribuições futuras.
+* [ x] **Expansão do conhecimento**: Explorar outras fontes de dados governamentais que poderiam se beneficiar de abordagem similar, ampliando o impacto do trabalho realizado.
 
 ### Reflexões Pessoais
 
@@ -105,3 +105,36 @@ O desafio de criar uma DAG robusta para dados governamentais me proporcionou um 
 A colaboração com a equipe durante esta sprint também foi enriquecedora, estabelecendo bases sólidas para contribuições futuras e fortalecendo minha compreensão sobre desenvolvimento colaborativo em projetos open source de impacto social.
 
 ---
+
+
+# Sprint 5 – [20/12 – 03/12]
+
+## Visão Geral
+
+Durante este ciclo, atuei na construção e otimização do fluxo de dados para a entidade "executores especiais". O trabalho concentrou-se na criação da DAG `api_executor_especial_dag` no Apache Airflow, garantindo que a ingestão de dados da API TransfereGov fosse performática e resiliente, integrando os resultados ao banco Postgres.
+
+**Issue Relacionada:** [Issue #41](https://github.com/GovHub-br/data-application-gov-hub/issues/41)
+
+## Entregas da Sprint
+
+| Data  | Descrição da Tarefa                                                  | Categoria | Referência      | Status   |
+|-------|----------------------------------------------------------------------|-----------|-----------------|----------|
+| 01/12 | Implementação da classe `ClienteTransfereGov` para abstração da API  | Backend   | [Commit 2c4fe9b](https://github.com/GovHub-br/data-application-gov-hub/commit/2c4fe9b299d00aac2df460576728ebaae2da191a) | Concluído|
+| 01/12 | Orquestração da DAG para coleta massiva de executores especiais      | Data Eng. | [Commit 7ce4e5e](https://github.com/GovHub-br/data-application-gov-hub/commit/7ce4e5e3c1b7216f6ac7e60f64d2e647d4a64fdd) | Concluído|
+| 02/12 | Consolidação do código e abertura de Pull Request                    | Review    | [PR-46](https://github.com/GovHub-br/data-application-gov-hub/pull/46)            | Concluído|
+
+## Principais Conquistas
+
+- **Otimização de Throughput:** Estruturação da DAG utilizando a estratégia de paralelismo (fan-out) do Airflow.
+- **Eficiência no Processamento:** Redução significativa do tempo de execução ao processar cerca de 48.000 IDs de Planos de Ação em lotes (chunks) de 200 itens, evitando timeout e sobrecarga de memória.
+
+## Desafios Superados
+
+- **Logística de Paginação:** A API externa possuía regras complexas de paginação que exigiram uma lógica customizada no cliente para garantir a completude dos dados.
+- **Gargalos de I/O:** O gerenciamento do ciclo de *consulta -> requisição -> inserção* precisou ser refatorado para evitar bloqueios no banco de dados durante a escrita massiva.
+
+## Lições Aprendidas
+
+- Aprofundamento em técnicas de **chunking** para manuseio de grandes volumes de dados em APIs REST.
+- Implementação de rotinas de higienização de dados (deduplicação e timestamping) diretamente no pipeline de ingestão.
+- Uso estratégico de logs para depuração em ambientes distribuídos.
