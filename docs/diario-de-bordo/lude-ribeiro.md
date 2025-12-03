@@ -229,3 +229,51 @@ Realizei também o Pull Request **#84**, responsável por aprimorar os padrões 
 -   Fortalecimento das práticas avançadas de **versionamento, governança de código e rastreabilidade**.
 
 ---
+
+## Sprint 5 – 07/11/2025 a 21/11/2025
+
+### Resumo da Sprint (S5)
+
+Esta sprint marcou a transição do foco em GCES para o desenvolvimento efetivo das pipelines de ingestão de dados — núcleo operacional do GovHub-br. O trabalho concentrou-se na implementação da DAG responsável pelo fluxo de **Executores Especiais**, incluindo autenticação, paginação, paralelização com _chunking_, tratamento de erros, idempotência e integração completa com o banco.
+
+Além disso, foi desenvolvido o **ClienteTransfereGov**, uma abstração central que unifica a comunicação com a API, simplificando significativamente a criação e manutenção das demais pipelines futuras.
+
+Durante esta sprint, **Letícia Aires contribuiu diretamente na tarefa**, auxiliando na validação do fluxo, revisão da estrutura dos operadores e no refinamento das estratégias de paginação e paralelização — fortalecendo a solidez da solução entregues.
+
+### Atividades Realizadas (S5)
+
+| Data  | Atividade                                                                                          | Categoria       | Referência                                 | Status       |
+| ----- | -------------------------------------------------------------------------------------------------- | --------------- | ------------------------------------------ | ------------ |
+| 10/11 | Implementação do `ClienteTransfereGov` com autenticação, paginação, tratamento de erros e retries  | Implementação   | dags/utils/cliente_transfere_gov.py        | ✅ Concluído |
+| 12/11 | Desenvolvimento da DAG de ingestão de **Executores Especiais**                                     | Implementação   | dags/ingestion/executores_especiais_dag.py | ✅ Concluído |
+| 13/11 | Criação do fluxo de extração com paginação, divisão em chunks e fan-out                            | Implementação   | dags/ingestion/executores_especiais_dag.py | ✅ Concluído |
+| 14/11 | Implementação do operador de transformação, normalização e idempotência                            | Implementação   | dags/ingestion/operators/transform.py      | ✅ Concluído |
+| 15/11 | Criação da etapa de carga com upsert e validação de integridade                                    | Implementação   | dags/ingestion/operators/load.py           | ✅ Concluído |
+| 17/11 | Ajustes de log estruturado e métricas de processamento                                             | Observabilidade | airflow logs + operadores personalizados   | ✅ Concluído |
+| 19/11 | Refatoração geral para tornar o fluxo mais modular, escalável e reutilizável para outras pipelines | Refatoração     | dags/ingestion/\*                          | ✅ Concluído |
+
+### Principais Avanços (S5)
+
+-   Desenvolvimento completo de uma pipeline real e funcional, desde requisição até persistência.
+-   Criação do **ClienteTransfereGov**, abstraindo autenticação, paginação e tratamento de erros — reduzindo complexidade nas DAGs.
+-   Implementação de estratégias de performance: _chunking_, fan-out e paralelismo controlado.
+-   Padronização de logs, estrutura modular e organização clara por operadores (extract, transform, load).
+-   Colaboração direta com **Letícia Aires**, que contribuiu na validação e no refinamento do fluxo.
+-   Estabelecimento de um modelo sólido para replicação das próximas pipelines.
+
+### Principais Desafios (S5)
+
+-   Garantir paralelismo sem comprometer limites da API e estabilidade do Airflow.
+-   Implementar paginação robusta para grandes volumes de dados.
+-   Assegurar idempotência na carga, evitando inconsistências no banco.
+-   Criar operadores suficientemente genéricos para reutilização, sem perda de legibilidade.
+
+### Conhecimentos Adquiridos (S5)
+
+-   Modelagem de pipelines de dados reais com Airflow em ambiente modular e escalável.
+-   Abordagens de paralelização seguras para ingestão de alto volume.
+-   Técnicas avançadas de observabilidade: logs estruturados, métricas e rastreamento de etapas.
+-   Boas práticas no design de clientes HTTP, com retries, tratamento inteligente de erros e paginação resiliente.
+-   Aprimoramento colaborativo na construção de DAGs a partir de revisões e validações externas.
+
+---
