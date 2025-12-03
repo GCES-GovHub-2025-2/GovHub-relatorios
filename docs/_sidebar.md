@@ -8,6 +8,7 @@
   - [Sprint 3](relatorios/Sprint-3.md)
   - [Sprint 4](relatorios/Sprint-4.md)
   - [Sprint 5](relatorios/Sprint-5.md)
+  - [Apresentação](relatorios/Apresentacao.md)
 
 - **Diários de Bordo**
   - [Davi Aguiar](diario-de-bordo/davi-de-aguiar-vieira.md)
