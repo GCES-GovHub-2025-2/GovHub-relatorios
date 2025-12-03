@@ -44,43 +44,44 @@
 | Gabriela Tiago                | Aplicação da gerência de configuração a repositórios da organização, criação de templates para padronização de commits       | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37) e [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9) | Foco em documentação e gerência de configuração |
 | Leonardo Fachinello Bonetti               |  Adição das tabelas bronze de deputados       | [Issue ab5ae29](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87) | Foco em integração de dados |
 | Gabriel Reis Scheidt Paulino              | Estudo de bulk inserts/upserts no PostgreSQL, hooks do Airflow (PostgresHook) e padrões de deduplicação e timestamping para pipelines de ingestão | [Airflow Postgres Provider](https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html) | Período de recuperação - foco em persistência de dados |
+| Lude Ribeiro                            | Revisão integral das entregas da sprint, organização e consolidação do relatório final, validação do fluxo de integração do Transferegov e apoio na padronização da documentação | —                                                                                                                                                                                                 | Suporte transversal e integração das entregas |
 
 ---
 
 ## 4. Maiores Avanços
 
-- Integração dos dados de programas especiais e planos de ação do Transferegov concluída
-- Suíte de testes abrangente implementada para o modelo bronze de emendas parlamentares
-- Padronização dos processos de contribuição através da atualização do Guia de Contribuição
-- Redução do backlog de issues nos repositórios principais
+-   Integração dos dados de programas especiais e planos de ação do Transferegov concluída
+-   Suíte de testes abrangente implementada para o modelo bronze de emendas parlamentares
+-   Padronização dos processos de contribuição através da atualização do Guia de Contribuição
+-   Redução do backlog de issues nos repositórios principais
 
 ---
 
 ## 5. Maiores Dificuldades
 
-- Compreensão da estrutura complexa dos dados do Transferegov
-- Garantir precisão nos testes com tipos numéricos específicos (numeric(15,2))
-- Simular múltiplos cenários de testes para cobrir casos reais das APIs
-- Manter consistência entre documentações escritas por diferentes contribuintes
+-   Compreensão da estrutura complexa dos dados do Transferegov
+-   Garantir precisão nos testes com tipos numéricos específicos (numeric(15,2))
+-   Simular múltiplos cenários de testes para cobrir casos reais das APIs
+-   Manter consistência entre documentações escritas por diferentes contribuintes
 
 ---
 
 ## 6. Lições Aprendidas
 
-- A ingestão de dados governamentais requer análise cuidadosa da estrutura e dos contratos das APIs
-- Uma suíte sólida de testes é essencial para garantir a confiabilidade de pipelines de dados
-- Documentações bem estruturadas aceleram revisões e facilitam contribuições futuras
-- A padronização de processos de contribuição melhora a organização e previsibilidade do fluxo de trabalho
+-   A ingestão de dados governamentais requer análise cuidadosa da estrutura e dos contratos das APIs
+-   Uma suíte sólida de testes é essencial para garantir a confiabilidade de pipelines de dados
+-   Documentações bem estruturadas aceleram revisões e facilitam contribuições futuras
+-   A padronização de processos de contribuição melhora a organização e previsibilidade do fluxo de trabalho
 
 ---
 
 ## 7. Planejamento para a Próxima Sprint
 
-- [ ] Expandir cobertura de testes para novos cenários
-- [ ] Apoiar a criação das camadas Silver de emendas parlamentares
-- [ ] Documentar decisões de modelagem dos dados do Transferegov
-- [ ] Continuar melhorando a documentação e processos de contribuição
-- [ ] Validar integrações realizadas com testes end-to-end
+-   [ ] Expandir cobertura de testes para novos cenários
+-   [ ] Apoiar a criação das camadas Silver de emendas parlamentares
+-   [ ] Documentar decisões de modelagem dos dados do Transferegov
+-   [ ] Continuar melhorando a documentação e processos de contribuição
+-   [ ] Validar integrações realizadas com testes end-to-end
 
 ---
 
