@@ -173,3 +173,32 @@ Nesta sprint, o foco principal foi começar a tabela bronze de deputados, anaisa
 
 * [ ] Terminar o PR com a tabela completa com testes
 
+## Sprint 5 – 06/11/2025 – 02/12/2025
+
+### Resumo da Sprint
+
+Nesta última sprint, o foco foi a finalização e entrega das contribuições pendentes para o encerramento da disciplina. Realizei a abertura dos Pull Requests referentes à camada Bronze da tabela de deputados, tarefa iniciada na sprint anterior, e fiz a ingestão . O período foi dedicado a garantir que o código estivesse em conformidade para o merge final.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo (Código/Doc/Discussão/Outro) | Link/Referência | Status |
+| --- | --- | --- | --- | --- |
+| 19/11 | Pull request da tabela bronze | Código | [Pull Request #13](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/13) | Faltou aprovação pendente do MR |
+| 01/11 | Commits criando o ingesto de empenho especial | Código | [Commit 1](https://github.com/GovHub-br/data-application-gov-hub/pull/45/commits/480c69937175f1c82bcd5a945b01466871eef816) [Commit 2](https://github.com/GovHub-br/data-application-gov-hub/pull/45/commits/1928ce54399a3673c785c377682e3c952dd5f140) | Concluído |
+| 02/11 | PR da Ingestão de empenho especial | Código | [Pull Request #45](https://github.com/GovHub-br/data-application-gov-hub/pull/45) | Concluído |
+| 02/12 | Verificação final e encerramento das atividades | Outro | - | Concluído |
+
+### Maiores Avanços
+
+* **Entrega da Camada Bronze:** Consegui finalizar a estruturação e padronização dos dados dos deputados na camada bronze, completando o fluxo que havia planejado.
+* **Entrega do novo ingestor:** Consegui cumprir a nova issue e entregar e ser aprovado no repositorio oficial do GovHub um ingestor de empenhos especias do TransfereGov
+* * **Consolidação do Código:** A realização dos Pull Requests (#13 e #45) marcou a integração final do meu trabalho ao repositório do projeto.
+
+### Maiores Dificuldades
+
+* **Gestão de Dependências entre Sprints:** Organizar o que havia ficado pendente da sprint passada (o PR #13) junto com a necessidade de entregar a nova ingestão(PR #45) exigiu atenção para não gerar conflitos de git.
+
+### Aprendizados
+
+* **Ciclo Completo de Desenvolvimento:** Com o encerramento da matéria, consolidei o entendimento de todo o fluxo, desde a configuração do ambiente, passando pela criação de DAGs no Airflow, até a modelagem de dados na camada bronze e a submissão via Pull Request, como organizar e contribuir para a manutenção de um projeto open-source.
+
