@@ -19,13 +19,13 @@
 
 ## 2. Entregas Coletivas
 
-| Entrega                                      | Status    | Link/Referência                                               | Observações                               |
-| -------------------------------------------- | --------- | ------------------------------------------------------------- | ----------------------------------------- |
-| Ingestão de empenhos especiais Transferegov  | Concluído | https://github.com/GovHub-br/data-application-gov-hub/pull/45 | Integração de dados de empenhos especiais |
-| Ingestão de executor especial Transferegov   | Concluído | https://github.com/GovHub-br/data-application-gov-hub/pull/46 | Dados de executores integrados            |
-| Ingestão de relatório de gestão Transferegov | Concluído | https://github.com/GovHub-br/data-application-gov-hub/pull/48 | Pipeline de relatórios de gestão          |
-| Ingestão de plano de trabalho especial       | Concluído | https://github.com/GovHub-br/data-application-gov-hub/pull/47 | Planos de trabalho especiais integrados   |
-| Ingestão PNCP                                | Concluído | https://github.com/GovHub-br/data-application-gov-hub/pull/48 | Dados do Portal Nacional de Contratações  |
+| Entrega                                              | Status    | Link/Referência                                                                                             | Observações                                  |
+| ---------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Ingestão de empenhos especiais Transferegov          | Concluído | [PR #45](https://github.com/GovHub-br/data-application-gov-hub/pull/45)                                     | Integração de dados de empenhos especiais    |
+| Ingestão de executor especial Transferegov           | Concluído | [PR #46](https://github.com/GovHub-br/data-application-gov-hub/pull/46)                                     | Dados de executores integrados               |
+| Ingestão de relatório de gestão Transferegov         | Concluído | [PR #48](https://github.com/GovHub-br/data-application-gov-hub/pull/48)                                     | Pipeline de relatórios de gestão             |
+| Ingestão de plano de trabalho especial               | Concluído | [PR #47](https://github.com/GovHub-br/data-application-gov-hub/pull/47)                                     | Planos de trabalho especiais integrados      |
+| Ingestão PNCP                                        | Concluído | [PR #48](https://github.com/GovHub-br/data-application-gov-hub/pull/48)                                     | Dados do Portal Nacional de Contratações     |
 
 ---
 

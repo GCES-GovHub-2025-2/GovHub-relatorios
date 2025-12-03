@@ -9,33 +9,41 @@
 
 ## 1. Objetivos da Sprint
 
--   [x] Ingestão de programas especiais do Transferegov
--   [x] Ingestão de planos de ação especiais do Transferegov
--   [x] Desenvolvimento da suíte de testes para o modelo DBT de emendas parlamentares
--   [x] Atualização e expansão dos padrões de Pull Request e Issue no Guia de Contribuição
+- [x] Ingestão de programas especiais do Transferegov
+- [x] Ingestão de planos de ação especiais do Transferegov
+- [x] Desenvolvimento da suíte de testes para o modelo DBT de emendas parlamentares
+- [x] Atualização e expansão dos padrões de Pull Request e Issue no Guia de Contribuição
+- [x] Desenvolvimento da tabela bronze de deputados
 
 ---
 
 ## 2. Entregas Coletivas
 
-| Entrega                                                 | Status    | Link/Referência                                                                                                                  | Observações                               |
-| ------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| Ingestão de programas especiais Transferegov            | Concluído | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                                          | Integração de novos dados do Transferegov |
-| Ingestão de planos de ação especiais Transferegov       | Concluído | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                                          | Ampliação da cobertura de dados           |
-| Desenvolvimento de testes para modelo bronze de emendas | Concluído | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Suíte com 12 testes implementada          |
-| Atualização do Guia de Contribuição                     | Concluído | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84)                                                                           | Padronização de PRs, issues e commits     |
+| Entrega                                              | Status    | Link/Referência                                                                                             | Observações                                  |
+| ---------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| Ingestão de programas especiais Transferegov         | Concluído | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                     | Integração de novos dados do Transferegov    |
+| Ingestão de planos de ação especiais Transferegov    | Concluído | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                     | Ampliação da cobertura de dados              |
+| Desenvolvimento de testes para modelo bronze de emendas | Concluído | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Suíte com 12 testes implementada |
+| Atualização do Guia de Contribuição                  | Concluído | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84)                                                      | Padronização de PRs, issues e commits        |
+| Aplicação da gerência de configuração a repositórios da organização | Concluído | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37), [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9) | Adição de padrões de commit em projetos além do gov-hub; padronização organizacional |
+| Adição das tabelas bronze de deputados | Concluído | [Issue ab5ae29](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87) | Integração da tabela bronze de deputados |
+
+
 
 ---
 
 ## 3. Contribuições Individuais
 
-| Integrante                              | Contribuições                                                                                                                                                                    | Links (PRs, Issues, Docs)                                                                                                                                                                         | Observações                                   |
-| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| Davi de Aguiar Vieira                   | Implementação da ingestão de programas especiais e planos de ação do Transferegov                                                                                                | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                                                                                                           | Foco em ingestão de dados                     |
-| Mateus de Castro Santos                 | Desenvolvimento da ingestão de programas especiais e planos de ação do Transferegov                                                                                              | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                                                                                                                           | Foco em integração de dados                   |
-| Mateus Henrique Queiroz Magalhães Sousa | Desenvolvimento da suíte de testes para o modelo bronze de emendas parlamentares                                                                                                 | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9)                                                                  | Foco em testes e qualidade                    |
-| Victor Hugo Lima Schmidt                | Desenvolvimento da suíte de testes para o modelo bronze de emendas parlamentares                                                                                                 | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9)                                                                  | Foco em testes e validação                    |
-| Letícia Aires                           | Supervisão e fechamento de issues, atualização do Guia de Contribuição com padrões de PR, issue, commit e branching                                                              | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84), [Issue #55](https://github.com/GovHub-br/gov-hub/issues/55), [Issue #15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | Foco em documentação e governança             |
+| Integrante                     | Contribuições                                                                                                              | Links (PRs, Issues, Docs)                                                                          | Observações                       |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------- |
+| Davi de Aguiar Vieira          | Implementação da ingestão de programas especiais e planos de ação do Transferegov                                          | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                            | Foco em ingestão de dados         |
+| Mateus de Castro Santos        | Desenvolvimento da ingestão de programas especiais e planos de ação do Transferegov                                        | [PR #35](https://github.com/GovHub-br/data-application-gov-hub/pull/35)                            | Foco em integração de dados       |
+| Mateus Henrique Queiroz Magalhães Sousa | Desenvolvimento da suíte de testes para o modelo bronze de emendas parlamentares                                   | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Foco em testes e qualidade |
+| Victor Hugo Lima Schmidt       | Desenvolvimento da suíte de testes para o modelo bronze de emendas parlamentares                                           | [Commit ceee0b0](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) | Foco em testes e validação |
+| Letícia Aires                  | Supervisão e fechamento de issues, atualização do Guia de Contribuição com padrões de PR, issue, commit e branching       | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84), [Issue #55](https://github.com/GovHub-br/gov-hub/issues/55), [Issue #15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | Foco em documentação e governança |
+| Gabriela Tiago                | Aplicação da gerência de configuração a repositórios da organização, criação de templates para padronização de commits       | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37) e [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9) | Foco em documentação e gerência de configuração |
+| Leonardo Fachinello Bonetti               |  Adição das tabelas bronze de deputados       | [Issue ab5ae29](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87) | Foco em integração de dados |
+| Gabriel Reis Scheidt Paulino              | Estudo de bulk inserts/upserts no PostgreSQL, hooks do Airflow (PostgresHook) e padrões de deduplicação e timestamping para pipelines de ingestão | [Airflow Postgres Provider](https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html) | Período de recuperação - foco em persistência de dados |
 | Lude Ribeiro                            | Revisão integral das entregas da sprint, organização e consolidação do relatório final, validação do fluxo de integração do Transferegov e apoio na padronização da documentação | —                                                                                                                                                                                                 | Suporte transversal e integração das entregas |
 
 ---

@@ -184,7 +184,7 @@ Os testes foram estruturados, mas serão concluídos e executados apenas na Spri
 * [] Ajudar na definição das próximas camadas Silver/Gold para emendas parlamentares. 
 
 
-## Sprint 4 – [23/10 - 05/11]
+## Sprint 4 – [23/10 - 19/11]
 
 ### Resumo da Sprint
 
@@ -226,4 +226,38 @@ A sprint foi dedicada a implementação e validação completa da camada de test
 
 * [ ] Apoiar a criação das camadas Silver de Emendas parlamentares
 * [ ] Expandir a cobertura de testes
+
+# Sprint 5 – [20/12 – 03/12]
+
+## Resumo da Sprint
+
+Nesta sprint, desenvolvi a DAG `api_executor_especial_dag` no Airflow para automatizar a ingestão de executores especiais a partir da API do TransfereGov. As atividades envolveram integração com Postgres, paralelização via chunking e tratamento de dados com deduplicação e timestamp. A issue relacionado a ingestão é : [Issue #41](https://github.com/GovHub-br/data-application-gov-hub/issues/41)
+do repositório principal.
+## Atividades Realizadas
+
+| Data  | Atividade                                                            | Tipo  | Link/Referência | Status   |
+|-------|----------------------------------------------------------------------|-------|-----------------|----------|
+| 01/12 | Desenvolvimento do cliente `ClienteTransfereGov` para extração`api_executor_especial_dag`                            | Código| [Commit 2c4fe9b](https://github.com/GovHub-br/data-application-gov-hub/commit/2c4fe9b299d00aac2df460576728ebaae2da191a)            | Concluído|
+| 01/12 | Desenvolvimento da DAG de executor especial para extração        | Código|    [Commit 7ce4e5e](https://github.com/GovHub-br/data-application-gov-hub/commit/7ce4e5e3c1b7216f6ac7e60f64d2e647d4a64fdd)            | Concluído|
+| 02/12 | Abertura do PR para das alterações feitas               | Código| [PR-46](https://github.com/GovHub-br/data-application-gov-hub/pull/46)            | Concluído|
+
+
+
+## Maiores Avanços
+
+- DAG totalmente funcional com ingestão paralela de executores especiais.
+- Superação do Gargalo de Performance: Implementação bem-sucedida da estratégia de paralelismo (fan-out do Airflow) para processar os ~48.000 IDs de Planos de Ação. A divisão em chunks de 200 e a execução paralela de cada chunk reduziram drasticamente o tempo total de execução.
+
+
+## Maiores Dificuldades
+
+- A complexidade da API TransfereGov exigiu o desenvolvimento de funções de cliente personalizadas para lidar com paginação da entidade executor_especial.
+- Paginação correta da API para garantir que todos os executores fossem buscados.
+- Superar o problema do gargalo na hora de fazer as consultas -> requisições -> inserções na dag.
+
+## Aprendizados
+
+- Importância de dividir grandes volumes de dados em chunks para processamento eficiente.
+- Como enriquecer dados com timestamps e deduplicar antes da inserção.
+- Uso de logging detalhado para rastrear falhas em pipelines automáticos.
 
