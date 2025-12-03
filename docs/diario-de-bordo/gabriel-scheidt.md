@@ -106,8 +106,121 @@ A colaboração com a equipe durante esta sprint também foi enriquecedora, esta
 
 ---
 
+## Sprint 2 – [25/09 – 08/10]
 
-# Sprint 5 – [20/12 – 03/12]
+### Resumo da Sprint
+
+Durante esta sprint, enfrentei um período de hospitalização que impossibilitou contribuições práticas diretas ao projeto. Contudo, aproveitei o tempo de recuperação para aprofundar estudos teóricos sobre conceitos fundamentais que seriam essenciais para futuras contribuições. O foco foi no entendimento de padrões de integração com APIs REST governamentais e técnicas de abstração de clientes HTTP, preparando terreno para implementações mais robustas.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                                 | Tipo    | Link/Referência                                                                 | Status    |
+|-------|---------------------------------------------------------------------------|---------|---------------------------------------------------------------------------------|-----------|
+| 26/09 | Estudo sobre design patterns para clientes de API (Adapter, Facade)       | Estudo  | Clean Architecture - Robert C. Martin                                          | Concluído |
+| 28/09 | Análise da documentação da API TransfereGov                               | Estudo  | [API TransfereGov](https://api.transferegov.gestao.gov.br/swagger-ui/index.html)| Concluído |
+| 01/10 | Estudo sobre tratamento de erros e retry patterns em requisições HTTP     | Estudo  | Documentação técnica e artigos especializados                                   | Concluído |
+| 04/10 | Mapeamento das entidades disponíveis na API TransfereGov                  | Estudo  | Swagger da API                                                                  | Concluído |
+
+### Maiores Avanços
+
+* **Conhecimento da API TransfereGov**: Mapeei as principais entidades e endpoints disponíveis, identificando oportunidades de integração com o GovHub-br.
+* **Fundamentos de abstração de clientes**: Compreendi padrões de design que facilitam a criação de clientes HTTP reutilizáveis e testáveis.
+* **Identificação de entidades prioritárias**: Identifiquei que executores especiais e planos de ação seriam entidades relevantes para futuras contribuições.
+
+### Maiores Dificuldades
+
+* **Limitação física**: O período de hospitalização restringiu significativamente minha capacidade de contribuição prática.
+* **Acesso limitado a recursos**: Dependência de dispositivos móveis para estudos, sem possibilidade de prática hands-on.
+
+### Aprendizados
+
+* **Resiliência em projetos open source**: A contribuição pode assumir diferentes formas, incluindo estudo preparatório para implementações futuras.
+* **Importância do planejamento**: Mapear APIs antes da implementação economiza tempo significativo durante o desenvolvimento.
+
+### Reflexões Pessoais
+
+Apesar das circunstâncias adversas, mantive o compromisso com o projeto através do estudo teórico. A análise da API TransfereGov revelou um universo rico de dados governamentais ainda não explorados pelo GovHub-br, especialmente relacionados a transferências de recursos e execução orçamentária. Esse conhecimento seria fundamental para contribuições futuras.
+
+---
+
+## Sprint 3 – [09/10 – 22/10]
+
+### Resumo da Sprint
+
+Em processo de recuperação de saúde, continuei focado em estudos teóricos que preparassem terreno para contribuições práticas. Esta sprint concentrou-se no aprofundamento de técnicas de processamento de dados em larga escala, especialmente padrões de chunking, paginação e paralelismo – conhecimentos essenciais para trabalhar com APIs que retornam grandes volumes de dados, como as governamentais.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                                      | Tipo    | Link/Referência                                                        | Status    |
+|-------|--------------------------------------------------------------------------------|---------|------------------------------------------------------------------------|-----------|
+| 10/10 | Estudo sobre estratégias de paginação em APIs REST                             | Estudo  | Artigos técnicos e documentação de APIs                                | Concluído |
+| 13/10 | Análise de padrões de chunking para processamento de grandes volumes           | Estudo  | Documentação Python e pandas                                           | Concluído |
+| 16/10 | Estudo sobre paralelismo no Airflow (fan-out pattern)                          | Estudo  | [Airflow Best Practices](https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html) | Concluído |
+| 19/10 | Análise de casos de uso de Dynamic Task Mapping no Airflow                     | Estudo  | Documentação oficial Airflow 2.x                                       | Concluído |
+
+### Maiores Avanços
+
+* **Domínio de técnicas de chunking**: Compreendi como dividir processamento de grandes conjuntos de dados em lotes menores para evitar problemas de memória e timeout.
+* **Entendimento do fan-out pattern**: Estudei como o Airflow permite paralelizar tasks para otimizar throughput em pipelines de dados.
+* **Estratégias de paginação**: Mapeei diferentes abordagens para lidar com APIs que retornam dados paginados.
+
+### Maiores Dificuldades
+
+* **Recuperação de saúde**: Ainda em processo de recuperação, o que limitou o tempo disponível para estudos mais intensivos.
+* **Falta de prática hands-on**: O conhecimento teórico precisa ser consolidado com implementação prática.
+
+### Aprendizados
+
+* **Escalabilidade em pipelines**: Técnicas de chunking e paralelismo são fundamentais para processar dados governamentais em escala.
+* **Trade-offs de design**: Aprendi sobre os trade-offs entre simplicidade e performance ao projetar DAGs complexas.
+* **Importância da observabilidade**: Logs estruturados são essenciais para depuração em ambientes distribuídos.
+
+### Reflexões Pessoais
+
+Os estudos desta sprint foram direcionados especificamente para os desafios que imaginava encontrar ao trabalhar com APIs governamentais de grande volume. A API TransfereGov, por exemplo, possui milhares de registros de planos de ação e executores que precisariam ser processados de forma eficiente. Esses conhecimentos seriam diretamente aplicáveis em implementações futuras.
+
+---
+
+## Sprint 4 – [23/10 – 05/11]
+
+### Resumo da Sprint
+
+Última sprint do período de recuperação, dedicada ao estudo de práticas de persistência de dados e integração com bancos de dados em pipelines Airflow. O foco foi entender como estruturar a escrita massiva de dados no PostgreSQL, técnicas de deduplicação e timestamping, preparando a base técnica para contribuições práticas nas sprints seguintes.
+
+### Atividades Realizadas
+
+| Data  | Atividade                                                                          | Tipo    | Link/Referência                                                    | Status    |
+|-------|------------------------------------------------------------------------------------|---------|---------------------------------------------------------------------|-----------|
+| 24/10 | Estudo sobre bulk inserts e upserts no PostgreSQL                                  | Estudo  | Documentação PostgreSQL                                             | Concluído |
+| 27/10 | Análise de padrões de deduplicação em pipelines de ingestão                        | Estudo  | Artigos sobre data engineering                                      | Concluído |
+| 30/10 | Estudo sobre hooks de banco de dados no Airflow (PostgresHook)                     | Estudo  | [Airflow Postgres Provider](https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html) | Concluído |
+| 02/11 | Análise do schema existente no GovHub-br para entidades do TransfereGov            | Estudo  | Repositório do projeto                                              | Concluído |
+| 04/11 | Estudo sobre timestamping e versionamento de dados em data lakes                   | Estudo  | Documentação arquitetura Medallion                                  | Concluído |
+
+### Maiores Avanços
+
+* **Domínio de operações de banco em escala**: Compreendi técnicas para escrita eficiente de grandes volumes de dados no PostgreSQL.
+* **Padrões de higienização de dados**: Estudei práticas de deduplicação e timestamping para garantir qualidade dos dados ingeridos.
+* **Integração Airflow-Postgres**: Entendi como utilizar os hooks e operators do Airflow para interagir com bancos de dados.
+
+### Maiores Dificuldades
+
+* **Complexidade do schema existente**: Entender a estrutura de dados já implementada no projeto exigiu análise cuidadosa.
+* **Ansiedade para contribuir**: Após semanas de estudo teórico, a vontade de aplicar o conhecimento praticamente era grande.
+
+### Aprendizados
+
+* **Gargalos de I/O**: Escrita massiva em bancos de dados pode se tornar gargalo se não for bem gerenciada.
+* **Importância da idempotência**: Pipelines de ingestão devem ser idempotentes para permitir reexecuções seguras.
+* **Arquitetura Medallion na prática**: Como os dados transitam entre as camadas bronze, silver e gold no contexto do GovHub-br.
+
+### Reflexões Pessoais
+
+Este período de estudos forçados pela situação de saúde, apesar de desafiador, proporcionou uma base teórica sólida que seria fundamental para as contribuições práticas. O conhecimento acumulado sobre APIs governamentais, técnicas de processamento em escala, paralelismo no Airflow e persistência de dados me deixou preparado para atacar issues mais complexas assim que pudesse retornar à atividade plena. A issue #41 sobre executores especiais do TransfereGov seria uma excelente oportunidade para aplicar todo esse conhecimento acumulado.
+
+---
+
+# Sprint 5 – [20/11 – 03/12]
 
 ## Visão Geral
 
