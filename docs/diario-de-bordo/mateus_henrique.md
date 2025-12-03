@@ -59,7 +59,7 @@ Inicialmente, o objetivo era contribuir com issues relacionadas a pipelines. No 
 | ----- | ------------------------------------------------ | --------------------------------- | --------------- | --------- |
 | 12/09 | Estudo sobre DAGs e funcionamento do Airflow     | Estudo                            | [Link](https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html) | Concluído |
 | 18/09 | Discussão e divisão das tarefas da equipe        | Discussão                         | -               | Concluído |
-| 23/09 | Criação inicial da DAG de ingestão de emendas parlamentares | Código | [Link](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/blob/feat/dag-ingestao-emendas/airflow_lappis/dags/data_ingest/emendas_parlamentares/emendas_parlamentares_dag.py) | Em andamento |
+| 23/09 | Criação inicial da DAG de ingestão de emendas parlamentares | Código | [Link](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/blob/feat/dag-ingestao-emendas/airflow_lappis/dags/data_ingest/portal_transparencia/emendas_parlamentares_dag.py) | Em andamento |
 
 ### Maiores Avanços
 
@@ -261,3 +261,26 @@ do repositório principal.
 - Como enriquecer dados com timestamps e deduplicar antes da inserção.
 - Uso de logging detalhado para rastrear falhas em pipelines automáticos.
 
+### Plano Pessoal para a Próxima Sprint
+
+* [] Começar a desenvolvimento da camada bronze de Executor Especial
+* [] Desenvolver a camada prata para emendas parlamentares
+
+### Resumo das Contribuições Individuais 
+
+| Sprint   | Contribuição / Descrição                                                         | Link do Commit / PR                                                                 |
+|----------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| Sprint 1 | Planejamento inicial da DAG de ingestão de emendas parlamentares                | (sem commits nesta sprint)                                                         |
+| Sprint 2 | Implementação inicial da DAG de ingestão de emendas parlamentares                | [Commit 1](https://github.com/GovHub-br/data-application-gov-hub/commit/b8f6a04e0dd583f7c98509b7ff2f07b2200b7880) |
+| Sprint 2 | Refatoração da DAG de emendas parlamentares – melhorias estruturais              | [Commit 2](https://github.com/GovHub-br/data-application-gov-hub/commit/ecaf6bbb331819cbffe1ad47fb15a0d92c99b93d) |
+| Sprint 2 | Refatoração final e ajustes da DAG de emendas parlamentares                      | [Commit 3](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/4ff07ddc1c59c555e7f1b2523aa2b4983ddeed95) |
+| Sprint 3 | Atualização do arquivo sources.yml com nova fonte do Portal da Transparência    | [Commit 4](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/a3ea2e4f25ffc7290588dcfd6f6e8d41ed54ee6d) |
+| Sprint 3 | Criação completa do modelo DBT Bronze para emendas (emendas.sql)                 | [Commit 5](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/d5a4aae032e41a54417d8fa8275805b789117860) |
+| Sprint 3 | Documentação detalhada do modelo Bronze                                          | [Commit 6](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/9ca9c829fe765b0766885ce6831179607f97996a) |
+| Sprint 4 | Suíte de 12 testes unitários para o modelo Bronze                                | [Commit 7](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ceee0b02cccb3b9bebe2c4bcd0a1b2707a1510f9) |
+| Sprint 4 | Abertura do Pull Request com melhorias e ajustes no modelo de testes e DAG     | [PR 12](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/12)      |
+| Sprint 5 | Implementação do cliente ClienteTransfereGov para ingestão de executores especiais | [Commit 8](https://github.com/GovHub-br/data-application-gov-hub/commit/2c4fe9b299d00aac2df460576728ebaae2da191a) |
+| Sprint 5 | Desenvolvimento completo da DAG api_executor_especial_dag                        | [Commit 9](https://github.com/GovHub-br/data-application-gov-hub/commit/7ce4e5e3c1b7216f6ac7e60f64d2e647d4a64fdd) |
+| Sprint 5 | Abertura do Pull Request com todas as implementações da Sprint                   | [PR 46](https://github.com/GovHub-br/data-application-gov-hub/pull/46)              |
+
+### Com exceção dos commits/PRs da Sprint 5 foram feitos no repositório de equipe, enquanto os da sprint 5 foram feitos no repositório Oficial do Github
