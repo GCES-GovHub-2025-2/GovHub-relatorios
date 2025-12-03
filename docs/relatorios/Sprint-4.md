@@ -43,6 +43,7 @@
 | Letícia Aires                  | Supervisão e fechamento de issues, atualização do Guia de Contribuição com padrões de PR, issue, commit e branching       | [PR #84](https://github.com/GovHub-br/gov-hub/pull/84), [Issue #55](https://github.com/GovHub-br/gov-hub/issues/55), [Issue #15](https://github.com/GovHub-br/data-application-gov-hub/issues/15) | Foco em documentação e governança |
 | Gabriela Tiago                | Aplicação da gerência de configuração a repositórios da organização, criação de templates para padronização de commits       | [PR #37](https://github.com/GovHub-br/data-application-gov-hub/pull/37) e [PR #9](https://github.com/GovHub-br/continuous-deployment/pull/9) | Foco em documentação e gerência de configuração |
 | Leonardo Fachinello Bonetti               |  Adição das tabelas bronze de deputados       | [Issue ab5ae29](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87) | Foco em integração de dados |
+| Gabriel Reis Scheidt Paulino              | Estudo de bulk inserts/upserts no PostgreSQL, hooks do Airflow (PostgresHook) e padrões de deduplicação e timestamping para pipelines de ingestão | [Airflow Postgres Provider](https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html) | Período de recuperação - foco em persistência de dados |
 
 ---
 
