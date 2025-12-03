@@ -264,3 +264,34 @@ A sprint foi dedicada a implementação e validação completa da camada de test
 * [ ] Apoiar a criação das camadas Silver de Emendas parlamentares
 * [ ] Expandir a cobertura de testes
 
+## Sprint 5 – [20/12 – 03/12]
+
+### Resumo da Sprint
+
+Nesta sprint, prestei suporte ao colega Mateus no desenvolvimento da DAG `api_executor_especial_dag` no Airflow para automatizar a ingestão de executores especiais a partir da API do TransfereGov. Meu papel envolveu auxílio na resolução de dúvidas sobre integração com Postgres, estratégias de paralelização via chunking e tratamento de dados com deduplicação e timestamp. A issue relacionada à ingestão é: [Issue #41](https://github.com/GovHub-br/data-application-gov-hub/issues/41) do repositório principal.
+
+### Atividades Realizadas
+
+| Data | Atividade | Tipo  | Link/Referência | Status   |
+|--|--|--|--|--|
+| 01/12 | Suporte no desenvolvimento do cliente `ClienteTransfereGov` para extração                            | Suporte| [Commit 2c4fe9b](https://github.com/GovHub-br/data-application-gov-hub/commit/2c4fe9b299d00aac2df460576728ebaae2da191a)            | Concluído|
+| 01/12 | Auxílio no desenvolvimento da DAG de executor especial        | Suporte|    [Commit 7ce4e5e](https://github.com/GovHub-br/data-application-gov-hub/commit/7ce4e5e3c1b7216f6ac7e60f64d2e647d4a64fdd)            | Concluído|
+| 02/12 | Revisão e discussão sobre o PR das alterações               | Suporte| [PR-46](https://github.com/GovHub-br/data-application-gov-hub/pull/46)            | Concluído|
+
+### Maiores Avanços
+
+- Colaboração efetiva no suporte ao desenvolvimento de uma DAG funcional com ingestão paralela de executores especiais.
+- Auxílio na estratégia de paralelismo (fan-out do Airflow) para processar os ~48.000 IDs de Planos de Ação, com divisão em chunks de 200 e execução paralela.
+
+## Maiores Dificuldades
+
+- Ajudar a compreender a complexidade da API TransfereGov e o desenvolvimento de funções de cliente personalizadas para paginação da entidade executor_especial.
+- Orientar sobre a paginação correta da API para garantir que todos os executores fossem buscados.
+- Discutir soluções para o gargalo de performance nas consultas → requisições → inserções na DAG.
+
+## Aprendizados
+
+- Importância do trabalho colaborativo e troca de conhecimentos na resolução de problemas complexos.
+- Estratégias de paralelização e chunking para processamento eficiente de grandes volumes de dados.
+- Como enriquecer dados com timestamps e implementar deduplicação antes da inserção.
+- Valor de logging detalhado para rastrear e debugar falhas em pipelines automáticos.
