@@ -227,11 +227,11 @@ A sprint foi dedicada a implementação e validação completa da camada de test
 * [ ] Apoiar a criação das camadas Silver de Emendas parlamentares
 * [ ] Expandir a cobertura de testes
 
-# Sprint 5 – [20/12 – 03/12]
+## Sprint 5 – [06/11 – 19/11]
 
 ## Resumo da Sprint
 
-Nesta sprint, desenvolvi a DAG `api_executor_especial_dag` no Airflow para automatizar a ingestão de executores especiais a partir da API do TransfereGov. As atividades envolveram integração com Postgres, paralelização via chunking e tratamento de dados com deduplicação e timestamp. A issue relacionado a ingestão é : [Issue #41](https://github.com/GovHub-br/data-application-gov-hub/issues/41)
+Nesta sprint, desenvolvi a DAG `executor_especial_ingest_dag` no Airflow para automatizar a ingestão de executores especiais a partir da API do TransfereGov. As atividades envolveram integração com Postgres, paralelização via chunking e tratamento de dados com deduplicação e timestamp. A issue relacionado a ingestão é : [Issue #41](https://github.com/GovHub-br/data-application-gov-hub/issues/41)
 do repositório principal.
 ## Atividades Realizadas
 
@@ -267,6 +267,7 @@ do repositório principal.
 * [] Desenvolver a camada prata para emendas parlamentares
 
 ### Resumo das Contribuições Individuais 
+Com exceção dos commits/PRs da Sprint 5 foram feitos no repositório de equipe, enquanto os da sprint 5 foram feitos no repositório Oficial do Github
 
 | Sprint   | Contribuição / Descrição                                                         | Link do Commit / PR                                                                 |
 |----------|----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
@@ -283,4 +284,3 @@ do repositório principal.
 | Sprint 5 | Desenvolvimento completo da DAG api_executor_especial_dag                        | [Commit 9](https://github.com/GovHub-br/data-application-gov-hub/commit/7ce4e5e3c1b7216f6ac7e60f64d2e647d4a64fdd) |
 | Sprint 5 | Abertura do Pull Request com todas as implementações da Sprint                   | [PR 46](https://github.com/GovHub-br/data-application-gov-hub/pull/46)              |
 
-### Com exceção dos commits/PRs da Sprint 5 foram feitos no repositório de equipe, enquanto os da sprint 5 foram feitos no repositório Oficial do Github
