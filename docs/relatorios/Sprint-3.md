@@ -41,6 +41,7 @@
 | Victor Hugo Lima Schmidt                | O desenvolvimento completo do modelo Bronze de Emendas Parlamentares no DBT, estruturando toda a base necessária para que o pipeline possa avançar para as camadas Silver e Gold.                                                              | [PR #11](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/12) [Issue #8](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/issues/8)                          | Foco na modelagem bronze para emendas parlamentares |
 | Lude Yuri de Castro Ribeiro             | Implementação completa da **gerência de configuração**: templates de issues (YAML), guia de padrões de código, documentação da estrutura do projeto, padronização de PRs e commits, `.gitignore` atualizado e limpeza de arquivos temporários. | [Feature branch: `feature/gerencia-configuracao`](#), Docs: `/docs/guia-padroes-codigo.md`, `/docs/estrutura-projeto.md`, `/docs/templates/`                                                  | Foco em qualidade, padronização e automação         |
 | Gabriel Reis Scheidt Paulino            | Estudo de técnicas de chunking e paginação para APIs de grande volume; análise do fan-out pattern e Dynamic Task Mapping no Airflow                                                                                                           | [Airflow Best Practices](https://airflow.apache.org/docs/apache-airflow/stable/best-practices.html)                                                                                           | Período de recuperação - foco em estudo preparatório |
+| Marcus Martins | Desenvolvimento da lógica de ingestão de /deputados utilizando Dynamic Task Mapping e estudo da arquitetura de desacoplamento entre Clientes e DAGs. | [PR #23](https://github.com/GovHub-br/data-application-gov-hub/pull/23) (upstream) | Foco em arquitetura Airflow e Task Mapping |
 
 ---
 
@@ -53,6 +54,7 @@
 -   **Gerência de configuração implementada**: templates YAML, padrões, documentação e fluxo Git padronizado
 -   Padronização de código e commits aplicadas ao repositório
 -   Correções finais na DAG e revisão das boas práticas de testes
+-   Domínio técnico de Dynamic Task Mapping no Airflow para orquestração eficiente de paginação de APIs.
 
 ---
 
@@ -64,6 +66,7 @@
 -   Garantir compatibilidade do guia de contribuição em diferentes sistemas operacionais
 -   Aderência entre branches e PRs durante a revisão de múltiplas contribuições simultâneas
 -   Integração entre múltiplos repositórios e alinhamento dos padrões de contribuição
+-   Gestão de configuração de múltiplos repositórios remotos (Upstream oficial, Fork da disciplina e repositório de documentação), causando conflitos de contribuição.
 
 ---
 
@@ -75,6 +78,8 @@
 -   Um guia de contribuição bem estruturado melhora a entrada de novos membros e reduz erros
 -   **A importância da gerência de configuração como pilar de qualidade e consistência entre times**
 -   Revisões cruzadas e padronização de PRs fortalecem a qualidade coletiva do código
+-   A arquitetura de plugins, com desacoplamento estrito entre Cliente API e DAG, vista na prática da manutenibilidade e testes do projeto.
+-   A verificação do fluxo de contribuição, para trabalhar estritamente no fork da disciplina e evitar colisão de trabalho com outros membros.
 
 ---
 

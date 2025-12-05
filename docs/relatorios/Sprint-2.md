@@ -67,6 +67,7 @@
 | **Lude Ribeiro**            | Implementação completa da Gerência de Configuração, criação de templates YAML, padronização de commits e PRs, documentação de padrões, dependabot, CodeQL e Git Flow. | [PR #52](https://github.com/GCES-GovHub-2025-2/gov-hub/pull/2), [ISSUE](https://github.com/GCES-GovHub-2025-2/GovHub-relatorios/issues/6)                                                                                                                                                                                                                                                                      | Foco em GCES e automação          |
 | **Gabriel Reis Scheidt Paulino** | Estudo de design patterns para clientes de API e análise da documentação da API TransfereGov; mapeamento de entidades disponíveis (executores especiais, planos de ação) | [API TransfereGov](https://api.transferegov.gestao.gov.br/swagger-ui/index.html) | Período de recuperação de saúde - foco em estudo teórico |
 | **Mateus Henrique** | Finalização da dag de Emendas parlamentares | [Commit](https://github.com/GovHub-br/data-application-gov-hub/commit/ecaf6bbb331819cbffe1ad47fb15a0d92c99b93d), [Commit](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/4ff07ddc1c59c555e7f1b2523aa2b4983ddeed95), [PR](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/pull/6)| Foco em desenvolvimento da ingestão |
+| **Marcus Martins** | Configuração e padronização dos Git Hooks (pre-commit e pre-push) em pair programming, ajustes na pipeline de análise estática (SonarCloud) e refinamento de Quality Gates. | – | Foco em Shift-Left e Qualidade de Código |
 
 ---
 
@@ -85,6 +86,7 @@
 -   Criação e documentação de **templates YAML** e guias de contribuição.
 -   Estrutura de documentação modular em `docs/`, com arquitetura, padrões e troubleshooting.
 -   Repositório limpo e protegido contra commits acidentais.
+-   Refinamento de Quality Gates: Ajuste nas regras do SonarCloud para reduzir falsos positivos e bloquear "code smells" antes do merge.
 
 ---
 
@@ -94,6 +96,7 @@
 -   Integração de múltiplos repositórios com diferentes estruturas de automação.
 -   Garantir consistência entre documentação, automação e versionamento.
 -   Necessidade de balancear detalhamento técnico e clareza para novos contribuidores.
+-   Configuração consistente dos scripts de hooks em diferentes sistemas operacionais (Linux vs Windows/Mac).
 
 ---
 
@@ -106,6 +109,7 @@
 -   **Testes abrangentes** são fundamentais para confiabilidade, especialmente em pipelines de dados.
 -   Uso de **mocks para APIs e bancos de dados** permite validação robusta sem dependências externas.
 -   Documentação modular e bem distribuída previne retrabalho e facilita manutenção.
+- **Pair Programming na configuração de ambiente:** A colaboração síncrona acelera a resolução de problemas.
 
 ---
 

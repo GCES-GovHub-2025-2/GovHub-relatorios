@@ -57,9 +57,7 @@ Durante a sprint 0, foquei na documentação inicial das práticas de Gerência 
 
 ### Resumo da Sprint
 
-Durante a Sprint 3, meu foco foi a construção de uma pipeline de ingestão de dados para o endpoint `/deputados` da API da Câmara dos Deputados. Desenvolvi toda a lógica de extração, incluindo a orquestração no Airflow para buscar dados históricos e o tratamento de paginação. Além disso, refatorei o código para um padrão mais limpo e manutenível, abstraindo a lógica da API para uma classe cliente, seguindo o padrão do projeto. No final da sprint, uma falha de comunicação foi identificada: eu estava commitando no repositório principal do GovHub em vez de no fork da disciplina, o que invalidou o meu código mas me fez ter uma ideia melhor do funcionamento do Airflow. Apesar da perda do trabalho inicial, a experiência permitiu um aprofundamento técnico no problema, o que facilitará o desenvolvimento da próxima tarefa, a ingestão de /deputados/{id}.
-
-https://github.com/GovHub-br/data-application-gov-hub/pull/23
+Durante a Sprint 1, o foco principal foi na migração do pipeline de CI/CD do GitLab para o GitHub Actions, incluindo a transcrição dos scripts e a migração das variáveis de ambiente. Submeti um pull request com essa implementação e configurei o SonarCloud no novo ambiente. Também participei de discussões de gestão com a equipe e continuei a aprofundar meu conhecimento sobre o projeto por meio do livro do GovHub e do evento de lançamento.
 
 ### Atividades Realizadas
 

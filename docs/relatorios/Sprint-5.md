@@ -14,6 +14,7 @@
 -   [x] Ingestão de relatório de gestão do Transferegov
 -   [x] Ingestão de plano de trabalho especial do Transferegov
 -   [x] Ingestão PNCP (Portal Nacional de Contratações Públicas)
+-   [] Ingestão de detalhes de deputados (bloqueado por tooling e configuração de ambiente)
 
 ---
 
@@ -39,6 +40,7 @@
 | Letícia Aires           | Apoio no desenvolvimento, validação e revisão da ingestão de executores especiais; conferência da paginação, chunking e paralelização; padronização de operadores e logs estruturados                                                                                 | Revisões internas na DAG de Executores Especiais e operadores associados                                                                                                                                                                                   | Contribuição essencial para estabilidade do fluxo de ingestão |
 | Lude Ribeiro            | Desenvolvimento e estruturação da ingestão de executores especiais; implementação de paginação, chunking e paralelização; criação de operadores padronizados e cliente HTTP unificado; testes manuais, verificação de consistência dos dados e ajustes de performance | https://github.com/GovHub-br/data-application-gov-hub/pull/46                                                                                                                                                                                              | Responsável direto pela arquitetura e robustez da ingestão    |
 | Leonardo Bonetti | Desenvolvimento da DAG de ingestão de Empenhos Especiais, incluindo a implementação da lógica de extração via API do Transferegov, tratamento de paginação e estruturação dos dados para persistência | https://github.com/GovHub-br/data-application-gov-hub/pull/45 | Foco em integração de dados |
+| Marcus Martins | Refatoração completa da lógica de ingestão de `/deputados/{id}` e ajustes na infraestrutura do projeto (`Makefile`, `pyproject.toml`) para adequação ao _linting_. Aplicação de estratégia de commits atômicos para isolar configurações. | - | Bloqueado por falhas persistentes nos hooks de pre-push |
 
 ---
 
@@ -59,6 +61,7 @@
 -   Validação de cenários de teste para dados com estruturas complexas
 -   Coordenação entre desenvolvimento e revisão de múltiplos PRs simultâneos
 -   Ajuste fino dos operadores de extração e transformação devido à alta variabilidade das respostas da API
+-   Bloqueio de Contribuição por Tooling
 
 ---
 
@@ -69,6 +72,8 @@
 -   A integração com múltiplas fontes governamentais exige padrões sólidos e bem definidos
 -   Documentação clara dos contratos de API acelera revisões e desenvolvimento futuro
 -   A colaboração entre pares — juntamente com a supervisão de Letícia Aires e o desenvolvimento técnico liderado por Lude Ribeiro — aumenta precisão, estabilidade e desempenho
+-   A prática de segregar alterações de configuração de infraestrutura das alterações de lógica de negócio para identificar e isolar falhas
+-   Ferramentas de qualidade (linters) mal configuradas ou excessivamente rígidas podem se tornar gargalos de produtividade se o ambiente não estiver perfeitamente alinhado.
 
 ---
 

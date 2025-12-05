@@ -14,6 +14,7 @@
 - [x] Desenvolvimento da suíte de testes para o modelo DBT de emendas parlamentares
 - [x] Atualização e expansão dos padrões de Pull Request e Issue no Guia de Contribuição
 - [x] Desenvolvimento da tabela bronze de deputados
+- [] Desenvolvimento da ingestão de detalhes de deputados (bloqueado por configuração de tooling)
 
 ---
 
@@ -45,6 +46,7 @@
 | Leonardo Fachinello Bonetti               |  Adição das tabelas bronze de deputados       | [Issue ab5ae29](https://github.com/GCES-GovHub-2025-2/data-application-gov-hub/commit/ab5ae29dd2693efc61ebd1cd4d1a495a844ede87) | Foco em integração de dados |
 | Gabriel Reis Scheidt Paulino              | Estudo de bulk inserts/upserts no PostgreSQL, hooks do Airflow (PostgresHook) e padrões de deduplicação e timestamping para pipelines de ingestão | [Airflow Postgres Provider](https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/index.html) | Período de recuperação - foco em persistência de dados |
 | Lude Ribeiro                            | Revisão integral das entregas da sprint, organização e consolidação do relatório final, validação do fluxo de integração do Transferegov e apoio na padronização da documentação | —                                                                                                                                                                                                 | Suporte transversal e integração das entregas |
+| Marcus Martins | Desenvolvimento local da DAG de detalhes de deputados utilizando Dynamic Task Mapping e implementação de testes unitários com Mocking. Trabalho intenso na correção de configurações de linting (`mypy`) e pre-push hooks. | - | Bloqueado por inconsistências entre ambiente local e hooks do Git |
 
 ---
 
@@ -54,6 +56,8 @@
 -   Suíte de testes abrangente implementada para o modelo bronze de emendas parlamentares
 -   Padronização dos processos de contribuição através da atualização do Guia de Contribuição
 -   Redução do backlog de issues nos repositórios principais
+-   Implementação de lógica de Dynamic Task Mapping para endpoint de `deputados/id`.
+-   Consolidação de testes unitários para `deputados/id`.
 
 ---
 
@@ -63,6 +67,7 @@
 -   Garantir precisão nos testes com tipos numéricos específicos (numeric(15,2))
 -   Simular múltiplos cenários de testes para cobrir casos reais das APIs
 -   Manter consistência entre documentações escritas por diferentes contribuintes
+-   Divergência entre a execução de testes locais (que passavam) e os scripts de pre-push hook (que falhavam por erros de importação/linting), impedindo o envio do código.
 
 ---
 
@@ -72,6 +77,7 @@
 -   Uma suíte sólida de testes é essencial para garantir a confiabilidade de pipelines de dados
 -   Documentações bem estruturadas aceleram revisões e facilitam contribuições futuras
 -   A padronização de processos de contribuição melhora a organização e previsibilidade do fluxo de trabalho
+-   A importância de alinhar as variáveis de ambiente do Makefile com o ambiente virtual para evitar falsos positivos/negativos em scripts de automação.
 
 ---
 
